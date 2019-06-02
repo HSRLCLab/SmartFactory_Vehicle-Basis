@@ -1,0 +1,40 @@
+{
+    "name": "SmartFactory_Vehicle-Basis",
+    "keywords": "SmartFactory",
+    "description": "Basis for Smart Factory Vehicle",
+    "homepage": null,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LMazzole/MQTTCommunication.git"
+    },
+    "version": "1.0.0",
+    "authors": {
+        "name": "Luca Mazzoleni",
+        "email": null,
+        "url": "https://github.com/LMazzole"
+    },
+    "dependencies": [
+        {
+            "name": "PID_v1"
+        },
+        {
+            "name": "Servo"
+        },
+        {
+            "name": "Adafruit Motor Shield V2 Library"
+        },
+        {
+            "name": "NewPing"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": "*",
+    "export": {
+        "exclude": [
+            "doxygen",
+            "docs",
+            "test"
+        ]
+    },
+    "srcFilter": "-<doxygen/> -<docs/> -<test/>"
+}
