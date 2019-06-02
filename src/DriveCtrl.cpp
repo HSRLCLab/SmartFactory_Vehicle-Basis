@@ -307,7 +307,7 @@ void DriveCtrl::entryAction_followingLineBackward() {
     //Entry-Action
     // pController.SetControllerDirection(REVERSE);
     // pController.SetTunings(1, 0, 0.01);
-    pDrive.drive(Drive::Direction::Backward, SPEED * 0.8);
+    pDrive.drive(Drive::Direction::Backward, REDUCED_SPEED);
     pDrive.turn(Drive::Direction::Right, 4);  //correct motor power diffrence
 }
 

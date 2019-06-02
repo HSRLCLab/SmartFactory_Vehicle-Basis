@@ -15,7 +15,6 @@
 #define LINEDETECTOR_H
 #include <Arduino.h>
 
-#include "Configuration.h"
 #include "LogConfiguration.h"
 
 /**

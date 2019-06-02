@@ -13,7 +13,6 @@
  * @date 2019-03-20
  * @copyright Copyright (c) 2019
  * 
- * @todo Delet Default Constructor and don't include configuration..
  * @todo make private variable const where necessary
  * @todo refactor private variable name -> pHoistServo
  * @todo add used servo-typ to documentation
@@ -22,7 +21,6 @@
 #ifndef Hoist_h
 #define Hoist_h
 
-#include "Configuration.h"
 #include "LogConfiguration.h"
 
 #include <Servo.h>

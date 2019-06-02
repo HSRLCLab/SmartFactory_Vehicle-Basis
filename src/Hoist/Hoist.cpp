@@ -19,13 +19,6 @@
 #include "Hoist.h"
 
 //=====PUBLIC====================================================================================
-Hoist::Hoist() : Hoist(HOIST_SERVO_PIN,
-                       HOIST_SERVO_DELAY,
-                       HOIST_POISITION_MAX,
-                       HOIST_POSITION_MIN) {
-    DBFUNCCALLln("Hoist::Hoist()");
-}
-
 Hoist::Hoist(int hoistServoPin, int hoistServoDelay, int posMax, int posMin) : servoPin(hoistServoPin),
                                                                                position(posMin),
                                                                                positionMin(posMin),

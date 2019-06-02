@@ -20,7 +20,6 @@
 #include <Adafruit_MotorShield.h>  //https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library
 #include <Arduino.h>
 
-#include "Configuration.h"
 #include "LogConfiguration.h"
 
 /* https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/library-reference
@@ -53,12 +52,6 @@ class Drive {
         Forward,  ///< Forward
         Backward  ///< Backward
     };
-
-    /**
-     * @brief Construct a new Drive object
-     * 
-     */
-    Drive();
 
     /**
      * @brief Construct a new Drive object

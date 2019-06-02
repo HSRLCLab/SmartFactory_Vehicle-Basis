@@ -14,11 +14,6 @@
 
 //=====PUBLIC====================================================================================
 
-Drive::Drive() : Drive(RIGHT_MOTOR,
-                       LEFT_MOTOR) {
-    DBFUNCCALLln("Drive::Drive()");
-}
-
 Drive::Drive(const int MotorPortRight, const int MotorPortLeft) {
     DBFUNCCALLln("Drive::Drive(const int MotorPortRight, const int MotorPortLeft)");
     pMotorRight = pAFMS.getMotor(MotorPortRight);

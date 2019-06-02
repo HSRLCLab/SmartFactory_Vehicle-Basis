@@ -15,7 +15,7 @@
 #define ENVIRONMENTDETECTION_H
 #include <Arduino.h>
 
-#include "Configuration.h"
+#include "HardwareConfiguration.h"
 #include "LogConfiguration.h"
 
 #include "EnvironmentDetection/LineDetector/LineDetector.h"

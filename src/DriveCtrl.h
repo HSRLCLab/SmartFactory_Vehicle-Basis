@@ -16,7 +16,7 @@
 #ifndef DRIVECTRL_H__
 #define DRIVECTRL_H__
 
-#include "Configuration.h"
+#include "HardwareConfiguration.h"
 #include "LogConfiguration.h"
 
 #include <PID_v1.h>

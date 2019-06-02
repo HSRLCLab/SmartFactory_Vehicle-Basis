@@ -14,7 +14,7 @@
 #ifndef HOISTCTRL_H__
 #define HOISTCTRL_H__
 
-#include "Configuration.h"
+#include "HardwareConfiguration.h"
 #include "LogConfiguration.h"
 
 #include "Hoist/Hoist.h"
@@ -92,7 +92,7 @@ class HoistCtrl {
      */
     Event (HoistCtrl::*doActionFPtr)(void) = nullptr;
 
-    Hoist pHoist;  ///< Hoist Object
+    Hoist pHoist = Hoist(HOIST_SERVO_PIN, HOIST_SERVO_DELAY, HOIST_POISITION_MAX, HOIST_POSITION_MIN);  ///< Hoist Object
 
     //=====PrivateFunctions=========================================================================
     /**
