@@ -18,7 +18,7 @@
 #include "Configuration.h"
 #include "LogConfiguration.h"
 
-#include "EnvironmentDetection/LineDetector.h"
+#include "EnvironmentDetection/LineDetector/LineDetector.h"
 
 /**
  * @brief Provides an Interface for all Enviroment detection Systems of the Vehilce. 
