@@ -18,7 +18,7 @@ The [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicl
 
 [TOC]
 
-## The SmartFactroy Project
+## The SmartFactory Project
 
 [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicle-Basis) is part of the SmartFactory-Project. It provides a library with basic vehicle functions.
 
@@ -105,7 +105,7 @@ Extern Libraries:
 
 #### HardwareConfiguration.h
 
-In HardwareConfiguration.h are all important settings for the Vehcile-Hardware defined:  
+In [HardwareConfiguration.h](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hardware_configuration_8h.html>) are all important settings for the Vehicle-Hardware defined:  
 
 - Setup for Drive
 	- Speed, Motor-Pins, PID-Values
