@@ -1,0 +1,6 @@
+<map id="DriveCtrl" name="DriveCtrl">
+<area shape="rect" id="node1" title="Contains the FSM to controll the Drive." alt="" coords="43,184,114,211"/>
+<area shape="rect" id="node2" href="$class_drive.html" title="Class Drive handels the Driving&#45;System." alt="" coords="5,95,56,121"/>
+<area shape="rect" id="node3" href="$class_environment_detection.html" title="Provides an Interface for all Enviroment detection Systems of the Vehilce." alt="" coords="81,95,229,121"/>
+<area shape="rect" id="node4" href="$class_line_detector.html" title="Class LineDetector handels the Line detection&#45;System." alt="" coords="107,5,202,32"/>
+</map>

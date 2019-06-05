@@ -17,6 +17,6 @@ var searchData=
   ['doaction_5fturningaround',['doAction_turningAround',['../class_drive_ctrl.html#afd85c4e72c47fc44eea606019ed8756c',1,'DriveCtrl']]],
   ['doaction_5fturningleft',['doAction_turningLeft',['../class_drive_ctrl.html#ae21eb4b81b0ee4858b4101b010bca88a',1,'DriveCtrl']]],
   ['doaction_5fturningright',['doAction_turningRight',['../class_drive_ctrl.html#a7b6db585e8bd34b3325f7aac2166fec0',1,'DriveCtrl']]],
-  ['drive',['Drive',['../class_drive.html#af18ec3b1c1c6603185fd4f2c9d5d6ac6',1,'Drive::Drive()'],['../class_drive.html#ac8df4390fcc19c3bdda93a2fc61ab17a',1,'Drive::Drive(const int MotorPortRight, const int MotorPortLeft)'],['../class_drive.html#a9138a0655fc206910843be208af4bb58',1,'Drive::drive(Direction direction, unsigned int speed)']]],
+  ['drive',['Drive',['../class_drive.html#ac8df4390fcc19c3bdda93a2fc61ab17a',1,'Drive::Drive(const int MotorPortRight, const int MotorPortLeft)'],['../class_drive.html#a9138a0655fc206910843be208af4bb58',1,'Drive::drive(Direction direction, unsigned int speed)']]],
   ['drivectrl',['DriveCtrl',['../class_drive_ctrl.html#a9dc3b057939e2e337850e6b1bb35dce9',1,'DriveCtrl']]]
 ];

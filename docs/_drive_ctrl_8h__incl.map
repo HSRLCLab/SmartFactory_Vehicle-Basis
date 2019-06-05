@@ -1,0 +1,11 @@
+<map id="DriveCtrl.h" name="DriveCtrl.h">
+<area shape="rect" id="node1" title="The Drive Controll class contains the FSM for the Drive." alt="" coords="193,5,275,32"/>
+<area shape="rect" id="node2" href="$_hardware_configuration_8h.html" title="File that contains the configuratioindetails of the different modules." alt="" coords="153,162,315,189"/>
+<area shape="rect" id="node3" title=" " alt="" coords="236,244,365,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="455,80,528,107"/>
+<area shape="rect" id="node5" href="$_drive_8h.html" title="The Drive Class handles the activation of the dc&#45;motors for the drive." alt="" coords="35,162,129,189"/>
+<area shape="rect" id="node8" href="$_environment_detection_8h.html" title="Class EnvironmentDetection provides an Interface for all Enviroment detection Systems of the Vehilce." alt="" coords="272,80,431,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,244,159,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="445,244,522,271"/>
+<area shape="rect" id="node9" href="$_line_detector_8h.html" title="The Class LineDetector handels the Line detection&#45;System." alt="" coords="390,155,577,196"/>
+</map>

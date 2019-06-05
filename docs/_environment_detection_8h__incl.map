@@ -1,0 +1,7 @@
+<map id="EnvironmentDetection.h" name="EnvironmentDetection.h">
+<area shape="rect" id="node1" title="Class EnvironmentDetection provides an Interface for all Enviroment detection Systems of the Vehilce." alt="" coords="125,5,284,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="43,169,120,196"/>
+<area shape="rect" id="node3" href="$_hardware_configuration_8h.html" title="File that contains the configuratioindetails of the different modules." alt="" coords="24,87,187,114"/>
+<area shape="rect" id="node4" title=" " alt="" coords="305,169,434,196"/>
+<area shape="rect" id="node5" href="$_line_detector_8h.html" title="The Class LineDetector handels the Line detection&#45;System." alt="" coords="211,80,398,121"/>
+</map>

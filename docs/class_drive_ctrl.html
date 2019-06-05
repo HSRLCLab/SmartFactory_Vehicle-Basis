@@ -101,6 +101,17 @@ $(document).ready(function(){initNavTree('class_drive_ctrl.html','');});
  <a href="class_drive_ctrl.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for DriveCtrl:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_drive_ctrl__coll__graph.png" border="0" usemap="#_drive_ctrl_coll__map" alt="Collaboration graph"/></div>
+<map name="_drive_ctrl_coll__map" id="_drive_ctrl_coll__map">
+<area shape="rect"  title="Contains the FSM to controll the Drive." alt="" coords="43,184,114,211"/>
+<area shape="rect"  href="class_drive.html" title="Class Drive handels the Driving&#45;System." alt="" coords="5,95,56,121"/>
+<area shape="rect"  href="class_environment_detection.html" title="Provides an Interface for all Enviroment detection Systems of the Vehilce." alt="" coords="81,95,229,121"/>
+<area shape="rect"  href="class_line_detector.html" title="Class LineDetector handels the Line detection&#45;System." alt="" coords="107,5,202,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -274,19 +285,19 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa13f18d32968066d6b0f22b199db94bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a> = 50</td></tr>
 <tr class="memdesc:aa13f18d32968066d6b0f22b199db94bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controler SampleTime in ms.  <a href="#aa13f18d32968066d6b0f22b199db94bc">More...</a><br /></td></tr>
 <tr class="separator:aa13f18d32968066d6b0f22b199db94bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5084573d62ae8ac7708b7e6b7b0c3781"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#a5084573d62ae8ac7708b7e6b7b0c3781">pVal_p</a> = PID_KP</td></tr>
+<tr class="memitem:a5084573d62ae8ac7708b7e6b7b0c3781"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#a5084573d62ae8ac7708b7e6b7b0c3781">pVal_p</a> = <a class="el" href="_hardware_configuration_8h.html#a08da7f7ff99187e307a8b4239d7cd93c">PID_KP</a></td></tr>
 <tr class="memdesc:a5084573d62ae8ac7708b7e6b7b0c3781"><td class="mdescLeft">&#160;</td><td class="mdescRight">P-Value.  <a href="#a5084573d62ae8ac7708b7e6b7b0c3781">More...</a><br /></td></tr>
 <tr class="separator:a5084573d62ae8ac7708b7e6b7b0c3781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af34b1a49eb9422f59f19b6470bf75d47"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#af34b1a49eb9422f59f19b6470bf75d47">pVal_i</a> = PID_KI / <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td></tr>
+<tr class="memitem:af34b1a49eb9422f59f19b6470bf75d47"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#af34b1a49eb9422f59f19b6470bf75d47">pVal_i</a> = <a class="el" href="_hardware_configuration_8h.html#a32a866d02be32142f546db36880fea1a">PID_KI</a> / <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td></tr>
 <tr class="memdesc:af34b1a49eb9422f59f19b6470bf75d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">I-Value (independet of SamplingTime)  <a href="#af34b1a49eb9422f59f19b6470bf75d47">More...</a><br /></td></tr>
 <tr class="separator:af34b1a49eb9422f59f19b6470bf75d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af62001c378f2b4449b3336c5ac0977a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#af62001c378f2b4449b3336c5ac0977a1">pVal_d</a> = PID_KD * <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td></tr>
+<tr class="memitem:af62001c378f2b4449b3336c5ac0977a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#af62001c378f2b4449b3336c5ac0977a1">pVal_d</a> = <a class="el" href="_hardware_configuration_8h.html#a90feaa7374c5c362fc49293faeb362a8">PID_KD</a> * <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td></tr>
 <tr class="memdesc:af62001c378f2b4449b3336c5ac0977a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">D-Value (independet of SamplingTime)  <a href="#af62001c378f2b4449b3336c5ac0977a1">More...</a><br /></td></tr>
 <tr class="separator:af62001c378f2b4449b3336c5ac0977a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae014c3028820938cf16f77a40f95b648"><td class="memItemLeft" align="right" valign="top">PID&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#ae014c3028820938cf16f77a40f95b648">pController</a> = PID(&amp;<a class="el" href="class_drive_ctrl.html#ade1cd453bcf2371f056c1baaa897d4d5">pController_Input</a>, &amp;<a class="el" href="class_drive_ctrl.html#a126a23c207f91cffb3ddde49ed2eeb8d">pController_Output</a>, &amp;<a class="el" href="class_drive_ctrl.html#a23e554291745c6c19022e00c6f6ac427">pController_Setpoint</a>, <a class="el" href="class_drive_ctrl.html#a5084573d62ae8ac7708b7e6b7b0c3781">pVal_p</a>, <a class="el" href="class_drive_ctrl.html#af34b1a49eb9422f59f19b6470bf75d47">pVal_i</a>, <a class="el" href="class_drive_ctrl.html#af62001c378f2b4449b3336c5ac0977a1">pVal_d</a>, DIRECT)</td></tr>
 <tr class="memdesc:ae014c3028820938cf16f77a40f95b648"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID-Controller Object.  <a href="#ae014c3028820938cf16f77a40f95b648">More...</a><br /></td></tr>
 <tr class="separator:ae014c3028820938cf16f77a40f95b648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af69379598ee826855dfafe9a76f2364f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_drive.html">Drive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#af69379598ee826855dfafe9a76f2364f">pDrive</a> = <a class="el" href="class_drive.html">Drive</a>(RIGHT_MOTOR, LEFT_MOTOR)</td></tr>
+<tr class="memitem:af69379598ee826855dfafe9a76f2364f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_drive.html">Drive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#af69379598ee826855dfafe9a76f2364f">pDrive</a> = <a class="el" href="class_drive.html">Drive</a>(<a class="el" href="_hardware_configuration_8h.html#a7a11b2a95ce57ef2c4c98eaeb7204014">RIGHT_MOTOR</a>, <a class="el" href="_hardware_configuration_8h.html#af5df0cfdfb3c479eba2cdbfec7c217ae">LEFT_MOTOR</a>)</td></tr>
 <tr class="memdesc:af69379598ee826855dfafe9a76f2364f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> Object.  <a href="#af69379598ee826855dfafe9a76f2364f">More...</a><br /></td></tr>
 <tr class="separator:af69379598ee826855dfafe9a76f2364f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae79c2b3c1db0d10b26e2d50c2e2588ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_environment_detection.html">EnvironmentDetection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#ae79c2b3c1db0d10b26e2d50c2e2588ba">pEnvdetect</a></td></tr>
@@ -1625,7 +1636,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_drive.html">Drive</a> DriveCtrl::pDrive = <a class="el" href="class_drive.html">Drive</a>(RIGHT_MOTOR, LEFT_MOTOR)</td>
+          <td class="memname"><a class="el" href="class_drive.html">Drive</a> DriveCtrl::pDrive = <a class="el" href="class_drive.html">Drive</a>(<a class="el" href="_hardware_configuration_8h.html#a7a11b2a95ce57ef2c4c98eaeb7204014">RIGHT_MOTOR</a>, <a class="el" href="_hardware_configuration_8h.html#af5df0cfdfb3c479eba2cdbfec7c217ae">LEFT_MOTOR</a>)</td>
         </tr>
       </table>
   </td>
@@ -1729,7 +1740,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double DriveCtrl::pVal_d = PID_KD * <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
+          <td class="memname">double DriveCtrl::pVal_d = <a class="el" href="_hardware_configuration_8h.html#a90feaa7374c5c362fc49293faeb362a8">PID_KD</a> * <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
         </tr>
       </table>
   </td>
@@ -1755,7 +1766,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double DriveCtrl::pVal_i = PID_KI / <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
+          <td class="memname">double DriveCtrl::pVal_i = <a class="el" href="_hardware_configuration_8h.html#a32a866d02be32142f546db36880fea1a">PID_KI</a> / <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
         </tr>
       </table>
   </td>
@@ -1781,7 +1792,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double DriveCtrl::pVal_p = PID_KP</td>
+          <td class="memname">double DriveCtrl::pVal_p = <a class="el" href="_hardware_configuration_8h.html#a08da7f7ff99187e307a8b4239d7cd93c">PID_KP</a></td>
         </tr>
       </table>
   </td>

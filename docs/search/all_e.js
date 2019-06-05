@@ -1,18 +1,15 @@
 var searchData=
 [
-  ['smartfactory_5fvehicle_2dbasis',['SmartFactory_Vehicle-Basis',['../md__v_1__git__smart_factory__vehicle-_basis__r_e_a_d_m_e.html',1,'']]],
-  ['send',['send',['../class_link_s_p_i.html#a1a424b400d74c23b2dd8c03b0e6f0240',1,'LinkSPI::send()'],['../class_link_i2_c.html#ae7b12321ba087e83fe265ede5e84bc07',1,'LinkI2C::send()'],['../class_link_s_p_i___s_s.html#a6b98570d635156367eee41c3ffbc4176',1,'LinkSPI_SS::send()'],['../class_link_u_a_r_t.html#ae39f94886b5656fcd391be7e3d26f6b5',1,'LinkUART::send()']]],
-  ['servodelay',['servoDelay',['../class_hoist.html#a1749bc391ce45dea153c6d8d939b4aaf',1,'Hoist']]],
-  ['servopin',['servoPin',['../class_hoist.html#ab5bf589b94566d5578980e298c4263c1',1,'Hoist']]],
-  ['setarg',['setArg',['../class_link_s_p_i.html#a6569180faf8c9b302e5081d7b722a27c',1,'LinkSPI::setArg()'],['../class_link_i2_c.html#a5f15394cf091ad6f209a64cf0f0db7ae',1,'LinkI2C::setArg()'],['../class_link_s_p_i___s_s.html#a98d2e5bff4ba3a9be6ab054e41ad7e5e',1,'LinkSPI_SS::setArg()'],['../class_link_u_a_r_t.html#a26a7fe9330f846de273637517a0f092c',1,'LinkUART::setArg()']]],
-  ['setbrightness',['setBrightness',['../class_t_pixy.html#a8c9f442eff27c2fd563da0df9d397d42',1,'TPixy']]],
-  ['setled',['setLED',['../class_t_pixy.html#a938f7b3d42778ecf8bff8f6eb58ff1c8',1,'TPixy']]],
-  ['setservos',['setServos',['../class_t_pixy.html#a8d768d7d679742d487a44a6af85ccecd',1,'TPixy']]],
-  ['signature',['signature',['../struct_block.html#a4b09deb0955346ab3ee5f9d28d3dd24c',1,'Block']]],
-  ['skipstart',['skipStart',['../class_t_pixy.html#a0e26bd1cfbc82c98633981a7d8e11b28',1,'TPixy']]],
-  ['sonar_2ecpp',['Sonar.cpp',['../_sonar_8cpp.html',1,'']]],
-  ['sonar_2eh',['Sonar.h',['../_sonar_8h.html',1,'']]],
-  ['sspin',['ssPin',['../class_link_s_p_i___s_s.html#a1196773a93cb6455e9f3b2e65219e8ee',1,'LinkSPI_SS']]],
-  ['state',['State',['../class_drive_ctrl.html#aadb678910212391db0f91056084533ad',1,'DriveCtrl::State()'],['../class_hoist_ctrl.html#a97fd8345369aabb47f1036b1d788226a',1,'HoistCtrl::State()']]],
-  ['stop',['stop',['../class_drive.html#a002bdfaf44a7cad5a360aaa5e0868811',1,'Drive']]]
+  ['raise',['raise',['../class_hoist.html#a7f035d4c1e49c3454e18d57ccb7f9905',1,'Hoist::raise()'],['../class_hoist_ctrl.html#a76f2b7dcb5beb85fbd5f9b5e29cf51f0a36ec8dc76bf55896199b1276242944af',1,'HoistCtrl::Raise()']]],
+  ['raising',['raising',['../class_hoist_ctrl.html#a97fd8345369aabb47f1036b1d788226aaf96c092401f963653a329310d29f9f80',1,'HoistCtrl']]],
+  ['read',['read',['../struct_circular_q.html#adb4e02ade3efe8a71c95bdf3083c79a6',1,'CircularQ']]],
+  ['readindex',['readIndex',['../struct_circular_q.html#a0de6c8068136f416e1b2d06722f75280',1,'CircularQ']]],
+  ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['reduced_5fspeed',['REDUCED_SPEED',['../_hardware_configuration_8h.html#ab3a08ddc50a7adb59f40d2685a9cd6b3',1,'HardwareConfiguration.h']]],
+  ['reset',['Reset',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daa526d688f37a86d3c3f27d0c5016eb71d',1,'DriveCtrl::Reset()'],['../class_hoist_ctrl.html#a76f2b7dcb5beb85fbd5f9b5e29cf51f0a526d688f37a86d3c3f27d0c5016eb71d',1,'HoistCtrl::Reset()']]],
+  ['resetstate',['resetState',['../class_drive_ctrl.html#aadb678910212391db0f91056084533ada18f44934484beaf4fe2743bb244a7205',1,'DriveCtrl::resetState()'],['../class_hoist_ctrl.html#a97fd8345369aabb47f1036b1d788226aa18f44934484beaf4fe2743bb244a7205',1,'HoistCtrl::resetState()']]],
+  ['resize',['resize',['../class_t_pixy.html#a0bb8137752ecdabb4547805db51297e7',1,'TPixy']]],
+  ['resume',['Resume',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daaf1cefec9e2196c672a622347f1fbc325',1,'DriveCtrl::Resume()'],['../class_hoist_ctrl.html#a76f2b7dcb5beb85fbd5f9b5e29cf51f0af1cefec9e2196c672a622347f1fbc325',1,'HoistCtrl::Resume()']]],
+  ['right',['Right',['../class_drive.html#af743b338356ce72483e64716047fdf36a92b09c7c48c520c3c55e497875da437c',1,'Drive']]],
+  ['right_5fmotor',['RIGHT_MOTOR',['../_hardware_configuration_8h.html#a7a11b2a95ce57ef2c4c98eaeb7204014',1,'HardwareConfiguration.h']]]
 ];

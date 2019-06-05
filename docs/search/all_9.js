@@ -2,6 +2,7 @@ var searchData=
 [
   ['laststatebevorerror',['lastStateBevorError',['../class_drive_ctrl.html#a70eaa12f9d9c570c67e8171a1ff053e9',1,'DriveCtrl::lastStateBevorError()'],['../class_hoist_ctrl.html#a4f719be9cea57f9dc4596a7d53d23106',1,'HoistCtrl::lastStateBevorError()']]],
   ['left',['Left',['../class_drive.html#af743b338356ce72483e64716047fdf36a945d5e233cf7d6240f6b783b36a374ff',1,'Drive']]],
+  ['left_5fmotor',['LEFT_MOTOR',['../_hardware_configuration_8h.html#af5df0cfdfb3c479eba2cdbfec7c217ae',1,'HardwareConfiguration.h']]],
   ['len',['len',['../struct_circular_q.html#a20090a9bede41f90b16e279e9d2ca2f4',1,'CircularQ']]],
   ['linealigned',['LineAligned',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daae8689ebab5185b52b6f0f57db6a6ad64',1,'DriveCtrl']]],
   ['linedetector',['LineDetector',['../class_line_detector.html',1,'LineDetector'],['../class_line_detector.html#a6450ba9e3734b6fae9da3dfb6e15da58',1,'LineDetector::LineDetector()']]],

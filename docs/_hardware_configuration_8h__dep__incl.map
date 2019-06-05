@@ -1,0 +1,8 @@
+<map id="HardwareConfiguration.h" name="HardwareConfiguration.h">
+<area shape="rect" id="node1" title="File that contains the configuratioindetails of the different modules." alt="" coords="30,5,193,32"/>
+<area shape="rect" id="node2" href="$_drive_ctrl_8h.html" title="The Drive Controll class contains the FSM for the Drive." alt="" coords="12,155,93,181"/>
+<area shape="rect" id="node4" href="$_environment_detection_8h.html" title="Class EnvironmentDetection provides an Interface for all Enviroment detection Systems of the Vehilce." alt="" coords="32,80,191,107"/>
+<area shape="rect" id="node5" href="$_hoist_ctrl_8h.html" title="The Hoist Controll class contains the FSM for the Hoist." alt="" coords="215,80,298,107"/>
+<area shape="rect" id="node3" href="$_drive_ctrl_8cpp.html" title="Implementation of the Drive Controll&#45;Class." alt="" coords="5,229,100,256"/>
+<area shape="rect" id="node6" href="$_hoist_ctrl_8cpp.html" title="Implementation of the Hoist Controll&#45;Class." alt="" coords="208,155,305,181"/>
+</map>

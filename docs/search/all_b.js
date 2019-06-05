@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['outbuf',['outBuf',['../class_link_s_p_i___s_s.html#ae0ba8121d0585634a1653184e8e2467e',1,'LinkSPI_SS']]],
-  ['outindex',['outIndex',['../class_link_s_p_i___s_s.html#a3d892d3fd64c57949575c40c585062e2',1,'LinkSPI_SS']]],
-  ['outlen',['outLen',['../class_link_s_p_i___s_s.html#a059960060fcd8a52c2fed1d2c2c59673',1,'LinkSPI_SS']]],
-  ['outq',['outQ',['../class_link_s_p_i.html#afe975d5595507f26019ef6a31edd8495',1,'LinkSPI']]]
+  ['noevent',['NoEvent',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daa9b8e7e8d81a268a2240a96b7962a0183',1,'DriveCtrl::NoEvent()'],['../class_hoist_ctrl.html#a76f2b7dcb5beb85fbd5f9b5e29cf51f0a9b8e7e8d81a268a2240a96b7962a0183',1,'HoistCtrl::NoEvent()']]],
+  ['normal_5fblock',['NORMAL_BLOCK',['../_t_pixy_8h.html#a54420623f26ab6bb61042b41cccf37a3ad869e56ec94e528fcc141a92a592ac07',1,'TPixy.h']]]
 ];

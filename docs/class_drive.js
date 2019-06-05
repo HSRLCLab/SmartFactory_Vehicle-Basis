@@ -6,7 +6,6 @@ var class_drive =
       [ "Forward", "class_drive.html#af743b338356ce72483e64716047fdf36a67d2f6740a8eaebf4d5c6f79be8da481", null ],
       [ "Backward", "class_drive.html#af743b338356ce72483e64716047fdf36ab3263eb38f8903efc271cc7a760da510", null ]
     ] ],
-    [ "Drive", "class_drive.html#af18ec3b1c1c6603185fd4f2c9d5d6ac6", null ],
     [ "Drive", "class_drive.html#ac8df4390fcc19c3bdda93a2fc61ab17a", null ],
     [ "decodeDirection", "class_drive.html#aebe3aca179d0c30627faa3644408395f", null ],
     [ "drive", "class_drive.html#a9138a0655fc206910843be208af4bb58", null ],

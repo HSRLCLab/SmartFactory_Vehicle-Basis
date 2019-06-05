@@ -11,6 +11,7 @@ var files_dup =
     [ "EnvironmentDetection.h", "_environment_detection_8h.html", [
       [ "EnvironmentDetection", "class_environment_detection.html", "class_environment_detection" ]
     ] ],
+    [ "HardwareConfiguration.h", "_hardware_configuration_8h.html", "_hardware_configuration_8h" ],
     [ "Hoist.cpp", "_hoist_8cpp.html", null ],
     [ "Hoist.h", "_hoist_8h.html", [
       [ "Hoist", "class_hoist.html", "class_hoist" ]
