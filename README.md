@@ -8,7 +8,7 @@ The [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicl
 * Drive-Control
 * Hoist-Control
 
- Multiple nested  Finite State Machines (FSM) based on the pattern of the [ArdFSM](<https://github.com/LMazzole/ArdFSM>) are used to control the processes.
+ Multiple nested Finite State Machines (FSM) based on the pattern of the [ArdFSM](<https://github.com/LMazzole/ArdFSM>) are used to control the processes.
 
 <!-- add Pagebreak: <div style="page-break-after: always;"></div> -->
 
@@ -25,7 +25,7 @@ The [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicl
 Other SmartFactory-Components are:
 * [SmartFactory_MQTTCommunication](https://github.com/LMazzole/SmartFactory_MQTTCommunication)
 
-A possible implementation of the SmartFactory-Project can be seen in the  Sortic-Showcase:
+A possible implementation of the SmartFactory-Project can be seen in the Sortic-Showcase:
 
 <img src="./docs/images/RepoOverview.png" height="300"/>
 
@@ -38,7 +38,7 @@ The associated  Repositorys are:
 
 ## Tools and Technologies
 
-The source-code is written in C++.
+The source code is written in C++.
 To achieve this project, the following listed tools and technologies were used.
 
 ### Doxygen
@@ -77,7 +77,7 @@ For detailed building instructions please contact [Felix Nyffenegger](mailto:fel
 
 All functions and files are documented on the [GitHub-Page](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/>).  
 
-It's important to mention that all functions are non blocking and as short as possible so no other process starves.
+It is important to mention that all functions are non-blocking and as short as possible so no other processes slow down.
 
 The Sonar and PixyCam functionalities are not implemented at the moment and are ~~crossed out~~.
 
@@ -105,7 +105,7 @@ Extern Libraries:
 
 #### HardwareConfiguration.h
 
-In [HardwareConfiguration.h](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hardware_configuration_8h.html>) are all important settings for the Vehicle-Hardware defined:  
+In [HardwareConfiguration.h](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hardware_configuration_8h.html>), all important settings for the Vehicle-Hardware are defined:  
 
 - Setup for Drive
 	- Speed, Motor-Pins, PID-Values
@@ -122,13 +122,13 @@ In [HardwareConfiguration.h](<https://lmazzole.github.io/SmartFactory_Vehicle-Ba
 ## FAQ's
 
 #### I'd like to use this code in my project. What do I need to know?  
-> All you need to do is at the GitHub-Link to this Repo under *lib_deps* in your platformio.ini File and your good to go. All dependencies are downloaded automatic. The interface is documented in [DriveCtrl](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html>), [EnvironmentDetection](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_environment_detection.html>) and [HoistCtrl](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html>).
+> All you need to do is adding the GitHub-Link to this Repo under *lib_deps* in your platformio.ini File and you're set. All dependencies are downloaded automatically. The interface is documented in [DriveCtrl](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html>), [EnvironmentDetection](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_environment_detection.html>) and [HoistCtrl](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html>).
 
 ### ToDo's
 
 #### Hardware
 
-- [ ] The battery of the vehicle must be recharged by hand. Inductive charging while waiting would be desirable.
+- [ ] The battery of the vehicle must be recharged manually. Inductive charging while waiting would be desirable.
 - [ ] Sensors for line recognition have an unfavourable distance to the turning point. They should be placed closer to the vehicle axis to increase the accuracy of alignment.
 
 #### Software
