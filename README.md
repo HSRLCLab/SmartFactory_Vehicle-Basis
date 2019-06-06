@@ -149,5 +149,5 @@ V 1.0	-	Release BA FS19	-	[Luca Mazzoleni](https://github.com/LMazzole)
 
 ## License
 
-[TODO]
+MIT License
 
