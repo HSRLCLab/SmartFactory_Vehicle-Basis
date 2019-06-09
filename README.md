@@ -20,6 +20,7 @@ The [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicl
 
 
 <div style="page-break-after: always;"></div>
+
 ## The SmartFactory Project
 
 [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicle-Basis) is part of the SmartFactory-Project. It provides a library with basic vehicle functions.
@@ -54,6 +55,7 @@ The used  IDE is [VSCode](https://code.visualstudio.com/) with the [PlatformIO](
 For a description of the MQTT-Technologie take a look at the [MQTTCommunication-ReadMe](<https://github.com/LMazzole/SmartFactory_MQTTCommunication#mqtt>).   
 
 <div style="page-break-after: always;"></div>
+
 # Documentation
 
 ## Hardware
@@ -77,6 +79,7 @@ To build a SmartVehicle the following hardware is needed:
 For detailed building instructions please contact [Felix Nyffenegger](mailto:felix.nyffenegger@hsr.ch).
 
 <div style="page-break-after: always;"></div>
+
 ## Software
 
 All functions and files are documented on the [GitHub-Page](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/>).  
@@ -107,6 +110,7 @@ Extern Libraries:
 - ~~[NewPing](<https://playground.arduino.cc/Code/NewPing/>)~~
 
 <div style="page-break-after: always;"></div>
+
 ### Collaboration Diagram
 
 <p align="center">
@@ -135,8 +139,8 @@ In [HardwareConfiguration.h](<https://lmazzole.github.io/SmartFactory_Vehicle-Ba
 - ~~Setup for Vision~~
 
 
-
 <div style="page-break-after: always;"></div>
+
 ## FAQ's
 
 #### I'd like to use this code in my project. What do I need to know?  
@@ -156,6 +160,7 @@ The open ToDo's can be found in the Documentation on the [GitHub-Page](https://l
 
 - [ ] Implement Sonar
 - [ ] Implement Vision
+
 ## Contributors
 
 - [Luca Mazzoleni](https://github.com/LMazzole)
