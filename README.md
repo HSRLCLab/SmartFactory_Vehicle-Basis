@@ -18,6 +18,8 @@ The [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicl
 
 [TOC]
 
+
+<div style="page-break-after: always;"></div>
 ## The SmartFactory Project
 
 [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicle-Basis) is part of the SmartFactory-Project. It provides a library with basic vehicle functions.
@@ -27,9 +29,9 @@ Other SmartFactory-Components are:
 
 A possible implementation of the SmartFactory-Project can be seen in the Sortic-Showcase:
 
-<img src="./docs/images/RepoOverview.png" height="300"/>
+<p align="center"><img src="./docs/images/RepoOverview.png" height="280"/></p>
 
-The associated  Repositorys are:  
+The associated  Repositories are:  
   [SmartFactory-Sortic](https://github.com/LMazzole/SmartFactory-Sortic)  
   [SmartFactory_Box-Sortic](https://github.com/LMazzole/SmartFactory_Box-Sortic)  
   [SmartFactory_Vehicle-Sortic](https://github.com/LMazzole/SmartFactory_Vehicle-Sortic)  
@@ -51,13 +53,13 @@ The used  IDE is [VSCode](https://code.visualstudio.com/) with the [PlatformIO](
 ### MQTT
 For a description of the MQTT-Technologie take a look at the [MQTTCommunication-ReadMe](<https://github.com/LMazzole/SmartFactory_MQTTCommunication#mqtt>).   
 
-
+<div style="page-break-after: always;"></div>
 # Documentation
 
 ## Hardware
 
-<img src="./docs/images/HardwareSV.png" width="600"/>
-<img src="./docs/images/HardwareSV2.png" width="600"/>
+<p align="center"><img src="./docs/images/HardwareSV.png" width="600"/></p>
+<p align="center"><img src="./docs/images/HardwareSV2.png" width="600"/></p>
 [Source: FTS, BA FS18, Huber,Paly]
 
 To build a SmartVehicle the following hardware is needed:
@@ -73,6 +75,8 @@ To build a SmartVehicle the following hardware is needed:
 * 2x Drive Lego - [LEGO® Power Functions M-Motor](<https://shop.lego.com/de-CH/product/LEGO-Power-Functions-M-Motor-8883>)
 
 For detailed building instructions please contact [Felix Nyffenegger](mailto:felix.nyffenegger@hsr.ch).
+
+<div style="page-break-after: always;"></div>
 ## Software
 
 All functions and files are documented on the [GitHub-Page](<https://lmazzole.github.io/SmartFactory_Vehicle-Basis/>).  
@@ -85,9 +89,15 @@ The interface is documented in [DriveCtrl](<https://lmazzole.github.io/SmartFact
 
 ### Dependency Graph
 
-[<img src="./docs/_drive_ctrl_8h__incl.png" width="550"/>](https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_drive_ctrl_8h.html)
-
-[<img src="./docs/_hoist_ctrl_8h__incl.png" width="450"/>](https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hoist_ctrl_8h.html)
+<p align="center">
+    <a href=https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_drive_ctrl_8h.html>
+        <img src="./docs/_drive_ctrl_8h__incl.png" width="550" style="border:none;"/>
+    </a><br /><br />
+    <a href=https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hoist_ctrl_8h.html>
+        <img src="./docs/_hoist_ctrl_8h__incl.png" width="450" style="border:none;"/>
+    </a>
+    <p align="center"><small>Click on the image to open doxygen-documentation.</p>
+</p>
 
 Extern Libraries:  
 
@@ -96,9 +106,17 @@ Extern Libraries:
 - [Servo](<https://www.arduino.cc/en/Reference/Servo>)
 - ~~[NewPing](<https://playground.arduino.cc/Code/NewPing/>)~~
 
+<div style="page-break-after: always;"></div>
 ### Collaboration Diagram
- [<img src="./docs/class_drive_ctrl__coll__graph.png" width="300" />](https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html)       [<img src="./docs/class_hoist_ctrl__coll__graph.png" width="120" />](https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html)  
 
+<p align="center">
+    <a href=https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html>
+        <img src="./docs/class_drive_ctrl__coll__graph.png" width="300" style="border:none;"/>
+    <a href=https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html>
+        <img src="./docs/class_hoist_ctrl__coll__graph.png" width="120" style="border:none;"/>
+    </a>
+    <p align="center"><small>Click on the image to open doxygen-documentation.</p>
+</p>
 
 
 ### Important Functions and Files
@@ -118,7 +136,7 @@ In [HardwareConfiguration.h](<https://lmazzole.github.io/SmartFactory_Vehicle-Ba
 
 
 
-
+<div style="page-break-after: always;"></div>
 ## FAQ's
 
 #### I'd like to use this code in my project. What do I need to know?  
@@ -130,6 +148,7 @@ In [HardwareConfiguration.h](<https://lmazzole.github.io/SmartFactory_Vehicle-Ba
 
 - [ ] The battery of the vehicle must be recharged manually. Inductive charging while waiting would be desirable.
 - [ ] Sensors for line recognition have an unfavourable distance to the turning point. They should be placed closer to the vehicle axis to increase the accuracy of alignment.
+- [ ] The line recognition functions unreliably. This may be caused by an imperfect white background and needs to be optimized.
 
 #### Software
 
