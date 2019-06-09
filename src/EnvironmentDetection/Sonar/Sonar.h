@@ -1,6 +1,6 @@
 // /**
 //  * @file Sonar.h
-//  * @brief Library for mechatronic component sonar.
+//  * @brief TODO Library for mechatronic component sonar.
 //  *
 //  * The sonar module consists of a sonar sensor and a servo motor.
 //  * Based on the deviation of the sonar to the focus point an error is

@@ -9,6 +9,9 @@
  * @date 2019-04-26
  * @copyright Copyright (c) 2019
  * 
+ * @todo Implement the Vision for a better BoxDetection
+ * @todo Implement Sonar for obstacle detection
+ * 
  */
 
 #ifndef ENVIRONMENTDETECTION_H

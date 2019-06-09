@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['raise',['raise',['../class_hoist.html#a7f035d4c1e49c3454e18d57ccb7f9905',1,'Hoist']]],
-  ['read',['read',['../struct_circular_q.html#adb4e02ade3efe8a71c95bdf3083c79a6',1,'CircularQ']]],
-  ['resize',['resize',['../class_t_pixy.html#a0bb8137752ecdabb4547805db51297e7',1,'TPixy']]]
+  ['turn',['turn',['../class_drive.html#a157b8dd477abef4845b1da0e19190edb',1,'Drive']]],
+  ['turnonpoint',['turnonpoint',['../class_drive.html#a67f2c4baf72f23d01effe7cc15e4ea61',1,'Drive']]]
 ];

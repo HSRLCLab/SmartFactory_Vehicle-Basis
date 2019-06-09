@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('class_drive.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> handels the Driving-System.  
+<p>Class <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> handels the Driving-System and provides basic functions.  
  <a href="class_drive.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_drive_8h_source.html">Drive.h</a>&gt;</code></p>
@@ -109,22 +109,22 @@ Public Types</h2></td></tr>
 <a class="el" href="class_drive.html#af743b338356ce72483e64716047fdf36a67d2f6740a8eaebf4d5c6f79be8da481">Direction::Forward</a>, 
 <a class="el" href="class_drive.html#af743b338356ce72483e64716047fdf36ab3263eb38f8903efc271cc7a760da510">Direction::Backward</a>
  }</td></tr>
-<tr class="memdesc:af743b338356ce72483e64716047fdf36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction holds all possible directions.  <a href="class_drive.html#af743b338356ce72483e64716047fdf36">More...</a><br /></td></tr>
+<tr class="memdesc:af743b338356ce72483e64716047fdf36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction enum holds all possible directions.  <a href="class_drive.html#af743b338356ce72483e64716047fdf36">More...</a><br /></td></tr>
 <tr class="separator:af743b338356ce72483e64716047fdf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8df4390fcc19c3bdda93a2fc61ab17a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#ac8df4390fcc19c3bdda93a2fc61ab17a">Drive</a> (const int MotorPortRight, const int MotorPortLeft)</td></tr>
-<tr class="memdesc:ac8df4390fcc19c3bdda93a2fc61ab17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> object <a href="https://www.adafruit.com/product/2927">https://www.adafruit.com/product/2927</a>.  <a href="#ac8df4390fcc19c3bdda93a2fc61ab17a">More...</a><br /></td></tr>
+<tr class="memdesc:ac8df4390fcc19c3bdda93a2fc61ab17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> object <a href="https://www.adafruit.com/product/2927">https://www.adafruit.com/product/2927</a>.  <a href="#ac8df4390fcc19c3bdda93a2fc61ab17a">More...</a><br /></td></tr>
 <tr class="separator:ac8df4390fcc19c3bdda93a2fc61ab17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9138a0655fc206910843be208af4bb58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#a9138a0655fc206910843be208af4bb58">drive</a> (<a class="el" href="class_drive.html#af743b338356ce72483e64716047fdf36">Direction</a> direction, unsigned int speed)</td></tr>
-<tr class="memdesc:a9138a0655fc206910843be208af4bb58"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> straight Forwards or Backwards.  <a href="#a9138a0655fc206910843be208af4bb58">More...</a><br /></td></tr>
+<tr class="memdesc:a9138a0655fc206910843be208af4bb58"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> straight Forwards or Backwards.  <a href="#a9138a0655fc206910843be208af4bb58">More...</a><br /></td></tr>
 <tr class="separator:a9138a0655fc206910843be208af4bb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a157b8dd477abef4845b1da0e19190edb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#a157b8dd477abef4845b1da0e19190edb">turn</a> (<a class="el" href="class_drive.html#af743b338356ce72483e64716047fdf36">Direction</a> direction, unsigned int speed)</td></tr>
-<tr class="memdesc:a157b8dd477abef4845b1da0e19190edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn left or right. Speed will add to one Motor's actual speed and substract from the others depenig on wich side it turns.  <a href="#a157b8dd477abef4845b1da0e19190edb">More...</a><br /></td></tr>
+<tr class="memdesc:a157b8dd477abef4845b1da0e19190edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn left or right. Speed will add to one Motor's actual speed and substract from the others depenig on which side it turns.  <a href="#a157b8dd477abef4845b1da0e19190edb">More...</a><br /></td></tr>
 <tr class="separator:a157b8dd477abef4845b1da0e19190edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f2c4baf72f23d01effe7cc15e4ea61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#a67f2c4baf72f23d01effe7cc15e4ea61">turnonpoint</a> (<a class="el" href="class_drive.html#af743b338356ce72483e64716047fdf36">Direction</a> direction, unsigned int speed)</td></tr>
-<tr class="memdesc:a67f2c4baf72f23d01effe7cc15e4ea61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on Point <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> on Motor Forward and the other Backward with the given speed.  <a href="#a67f2c4baf72f23d01effe7cc15e4ea61">More...</a><br /></td></tr>
+<tr class="memdesc:a67f2c4baf72f23d01effe7cc15e4ea61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn on Point <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> on Motor Forward and the other Backward with the given speed.  <a href="#a67f2c4baf72f23d01effe7cc15e4ea61">More...</a><br /></td></tr>
 <tr class="separator:a67f2c4baf72f23d01effe7cc15e4ea61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a002bdfaf44a7cad5a360aaa5e0868811"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#a002bdfaf44a7cad5a360aaa5e0868811">stop</a> ()</td></tr>
 <tr class="memdesc:a002bdfaf44a7cad5a360aaa5e0868811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power of the Motor. Does not apply breaking.  <a href="#a002bdfaf44a7cad5a360aaa5e0868811">More...</a><br /></td></tr>
@@ -161,7 +161,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aabfc5df8906f4fa9587206382051d3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> handels the Driving-System. </p>
+<div class="textblock"><p>Class <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> handels the Driving-System and provides basic functions. </p>
 
 <p class="definition">Definition at line <a class="el" href="_drive_8h_source.html#l00042">42</a> of file <a class="el" href="_drive_8h_source.html">Drive.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -185,7 +185,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Direction holds all possible directions. </p>
+<p>Direction enum holds all possible directions. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af743b338356ce72483e64716047fdf36a945d5e233cf7d6240f6b783b36a374ff"></a>Left&#160;</td><td class="fielddoc"><p>Left. </p>
 </td></tr>
@@ -228,16 +228,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> object <a href="https://www.adafruit.com/product/2927">https://www.adafruit.com/product/2927</a>. </p>
+<p>Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> object <a href="https://www.adafruit.com/product/2927">https://www.adafruit.com/product/2927</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">MotorPortRight</td><td>- Port where the right Motor is connected on the MotorShield </td></tr>
-    <tr><td class="paramname">MotorPortLeft</td><td>- Port where the left Motor is connected on the MotorShield </td></tr>
+    <tr><td class="paramname">MotorPortLeft</td><td>- Port where the left Motor is connected on the MotorShield</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Add a variable to compensate for differences in engine speed with the same control</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00017">17</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00021">21</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +276,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>String - State as String </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00123">123</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00124">124</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
 
 </div>
 </div>
@@ -305,7 +306,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> straight Forwards or Backwards. </p>
+<p><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> straight Forwards or Backwards. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">direction</td><td>- Movingdirection Forward or Backward </td></tr>
@@ -314,7 +315,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00025">25</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00029">29</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
 
 </div>
 </div>
@@ -335,7 +336,7 @@ Private Attributes</h2></td></tr>
 
 <p>Power of the Motor. Does not apply breaking. </p>
 
-<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00109">109</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00110">110</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
 
 </div>
 </div>
@@ -365,17 +366,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Turn left or right. Speed will add to one Motor's actual speed and substract from the others depenig on wich side it turns. </p>
+<p>Turn left or right. Speed will add to one Motor's actual speed and substract from the others depenig on which side it turns. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">direction</td><td>- left or right </td></tr>
-    <tr><td class="paramname">speed</td><td>- Speed between 0 and 255</td></tr>
+    <tr><td class="paramname">speed</td><td>- Speed between 0 and 255 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>change direction if vehicle is moving forward or backward so the turndirectiomn still matches direction </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00052">52</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00053">53</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +405,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Turn on Point <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> on Motor Forward and the other Backward with the given speed. </p>
+<p>Turn on Point <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> on Motor Forward and the other Backward with the given speed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">direction</td><td>- left or right </td></tr>
@@ -414,7 +414,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00086">86</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_8cpp_source.html#l00087">87</a> of file <a class="el" href="_drive_8cpp_source.html">Drive.cpp</a>.</p>
 
 </div>
 </div>

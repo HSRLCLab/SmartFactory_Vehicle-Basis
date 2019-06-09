@@ -1,4 +1,4 @@
 <map id="HoistCtrl" name="HoistCtrl">
 <area shape="rect" id="node1" title="Contains the FSM for the Hoist." alt="" coords="5,95,77,121"/>
-<area shape="rect" id="node2" href="$class_hoist.html" title="Provides the basic functions to controll the Hoist." alt="" coords="15,5,67,32"/>
+<area shape="rect" id="node2" href="$class_hoist.html" title="Provides the basic functions to control the Hoist." alt="" coords="15,5,67,32"/>
 </map>

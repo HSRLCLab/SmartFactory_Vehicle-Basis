@@ -1,9 +1,9 @@
 <map id="HoistCtrl.cpp" name="HoistCtrl.cpp">
 <area shape="rect" id="node1" title="Implementation of the Hoist Controll&#45;Class." alt="" coords="157,5,254,32"/>
-<area shape="rect" id="node2" href="$_hoist_ctrl_8h.html" title="The Hoist Controll class contains the FSM for the Hoist." alt="" coords="164,80,247,107"/>
+<area shape="rect" id="node2" href="$_hoist_ctrl_8h.html" title="The Hoist&#45;Controll class contains the FSM for the Hoist." alt="" coords="164,80,247,107"/>
 <area shape="rect" id="node3" href="$_hardware_configuration_8h.html" title="File that contains the configuratioindetails of the different modules." alt="" coords="5,155,168,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="133,229,262,256"/>
-<area shape="rect" id="node5" href="$_hoist_8h.html" title="Library for mechatronic component hoist." alt="" coords="261,155,358,181"/>
+<area shape="rect" id="node5" href="$_hoist_8h.html" title="The Class Hoist provides the basic functions for the hoist." alt="" coords="261,155,358,181"/>
 <area shape="rect" id="node6" title=" " alt="" coords="286,229,351,256"/>
 <area shape="rect" id="node7" title=" " alt="" coords="376,229,453,256"/>
 </map>

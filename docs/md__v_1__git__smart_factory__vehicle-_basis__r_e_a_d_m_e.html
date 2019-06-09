@@ -90,7 +90,123 @@ $(document).ready(function(){initNavTree('md__v_1__git__smart_factory__vehicle-_
 <div class="title">SmartFactory_Vehicle-Basis </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"></div></div><!-- PageDoc -->
+<div class="textblock"><p>The <a href="https://github.com/LMazzole/SmartFactory_Vehicle-Basis">SmartFactory_Vehicle-Basis</a> is an modular part of the SmartFactory Project.</p>
+<p><a href="https://github.com/LMazzole/SmartFactory_Vehicle-Basis">SmartFactory_Vehicle-Basis</a> is a Vehicle which is equipped with a drive, sensors (line-detection, <strike>sonar and a camera</strike>) and a hoist. It consists of three modules:</p>
+<ul>
+<li>Environment-Detection</li>
+<li>Drive-Control</li>
+<li><p class="startli">Hoist-Control</p>
+<p class="startli">Multiple nested Finite State Machines (FSM) based on the pattern of the <a href="https://github.com/LMazzole/ArdFSM">ArdFSM</a> are used to control the processes.</p>
+</li>
+</ul>
+<h2>Table of Content</h2>
+<h2>The SmartFactory Project</h2>
+<p><a href="https://github.com/LMazzole/SmartFactory_Vehicle-Basis">SmartFactory_Vehicle-Basis</a> is part of the SmartFactory-Project. It provides a library with basic vehicle functions.</p>
+<p>Other SmartFactory-Components are:</p><ul>
+<li><a href="https://github.com/LMazzole/SmartFactory_MQTTCommunication">SmartFactory_MQTTCommunication</a></li>
+</ul>
+<p>A possible implementation of the SmartFactory-Project can be seen in the Sortic-Showcase:</p>
+<img src="./docs/images/RepoOverview.png" height="300" alt="" class="inline"/>
+<p>The associated Repositorys are:</p>
+<p><a href="https://github.com/LMazzole/SmartFactory-Sortic">SmartFactory-Sortic</a></p>
+<p><a href="https://github.com/LMazzole/SmartFactory_Box-Sortic">SmartFactory_Box-Sortic</a></p>
+<p><a href="https://github.com/LMazzole/SmartFactory_Vehicle-Sortic">SmartFactory_Vehicle-Sortic</a></p>
+<p><a href="https://github.com/LMazzole/SmartFactory_Vehicle-Basis">SmartFactory_Vehicle-Basis</a></p>
+<p><a href="https://github.com/LMazzole/SmartFactory_MQTTCommunication">SmartFactory_MQTTCommunication</a></p>
+<h2>Tools and Technologies</h2>
+<p>The source-code is written in C++. To achieve this project, the following listed tools and technologies were used.</p>
+<h3>Doxygen</h3>
+<p>Doxygen is used for the documentation of the source-code.</p>
+<p>An intorduction to <em>Doxygen</em> and how to install it can be found in the <a href="https://github.com/LMazzole/ArdFSM#documentation-with-doxygen">ArdFSM-Repo</a>.</p>
+<h3>VSCode PlatformIO</h3>
+<p>The used IDE is <a href="https://code.visualstudio.com/">VSCode</a> with the <a href="https://platformio.org/platformio-ide">PlatformIO</a>-Extension.</p>
+<h3>MQTT</h3>
+<p>For a description of the MQTT-Technologie take a look at the <a href="https://github.com/LMazzole/SmartFactory_MQTTCommunication#mqtt">MQTTCommunication-ReadMe</a>.</p>
+<h1>Documentation</h1>
+<h2>Hardware</h2>
+<img src="./docs/images/HardwareSV.png" width="600" alt="" class="inline"/>
+ <img src="./docs/images/HardwareSV2.png" width="600" alt="" class="inline"/>
+ [Source: FTS, BA FS18, Huber,Paly]</p>
+<p>To build a SmartVehicle the following hardware is needed:</p>
+<ul>
+<li>1x <a href="https://www.adafruit.com/product/3010">Adafruit Feather M0 WiFi - ATSAMD21 + ATWINC1500</a> from Adafruit.</li>
+<li>1x <a href="https://www.adafruit.com/product/2927">DC Motor + Stepper FeatherWing Add-on</a></li>
+<li>3x Battery with an JST 2.0 Connection</li>
+<li>1x <a href="https://pixycam.com/">PixyCam</a></li>
+<li>1x Sonar - <a href="https://www.play-zone.ch/de/ultraschall-distanzmesser-hc-sr04.html">HC-SR04</a></li>
+<li>5x IR Sensor - <a href="https://www.play-zone.ch/de/reflektions-spur-sensor-breakout.html">IR-Sensor breakout-board</a></li>
+<li>1x Servo for <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a> - <a href="https://www.conrad.ch/de/p/bluebird-midi-servo-bms-390-dmh-digital-servo-getriebe-material-metall-stecksystem-jr-275487.html?insert=62">Bluebird Midi-Servo BMS-390</a></li>
+<li>1x Servo for Cam and Sonar - <a href="https://www.conrad.ch/de/p/motor-micro-servo-sg92r-adafruit-169-1516595.html?insert=62">SG92R Adafruit 169</a></li>
+<li>2x <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> Lego - <a href="https://shop.lego.com/de-CH/product/LEGO-Power-Functions-M-Motor-8883">LEGO® Power Functions M-Motor</a></li>
+</ul>
+<p>For detailed building instructions please contact <a href="#" onclick="location.href='mai'+'lto:'+'fel'+'ix'+'.ny'+'ff'+'ene'+'gg'+'er@'+'hs'+'r.c'+'h'; return false;">Felix Nyffenegger</a>. </p><h2>Software</h2>
+<p>All functions and files are documented on the <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/">GitHub-Page</a>.</p>
+<p>It's important to mention that all functions are non blocking and as short as possible so no other process starves.</p>
+<p>The Sonar and PixyCam functionalities are not implemented at the moment and are <strike>crossed out</strike>.</p>
+<p>The interface is documented in <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html">DriveCtrl</a>, <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_environment_detection.html">EnvironmentDetection</a> and <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html">HoistCtrl</a>.</p>
+<h3>Dependency Graph</h3>
+<p><a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_drive_ctrl_8h.html"><img src="./docs/_drive_ctrl_8h__incl.png" width="550" alt="" class="inline"/>
+</a></p>
+<p><a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hoist_ctrl_8h.html"><img src="./docs/_hoist_ctrl_8h__incl.png" width="450" alt="" class="inline"/>
+</a></p>
+<p>Extern Libraries:</p>
+<ul>
+<li>[Adafruit Motor Shield V2 Library]()</li>
+<li><a href="https://github.com/br3ttb/Arduino-PID-Library/">Arduino PID</a></li>
+<li><a href="https://www.arduino.cc/en/Reference/Servo">Servo</a></li>
+<li><strike><a href="https://playground.arduino.cc/Code/NewPing/">NewPing</a></strike></li>
+</ul>
+<h3>Collaboration Diagram</h3>
+<p><a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html"><img src="./docs/class_drive_ctrl__coll__graph.png" width="300" alt="" class="inline"/>
+</a> <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html"><img src="./docs/class_hoist_ctrl__coll__graph.png" width="120" alt="" class="inline"/>
+</a></p>
+<h3>Important Functions and Files</h3>
+<h4><a class="el" href="_hardware_configuration_8h.html" title="File that contains the configuratioindetails of the different modules.">HardwareConfiguration.h</a></h4>
+<p>In <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hardware_configuration_8h.html">HardwareConfiguration.h</a> are all important settings for the Vehicle-Hardware defined:</p>
+<ul>
+<li>Setup for <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a><ul>
+<li>Speed, Motor-Pins, PID-Values</li>
+</ul>
+</li>
+<li>Setup for the Linedetector<ul>
+<li>Pin-Number</li>
+</ul>
+</li>
+<li>Setup for <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a><ul>
+<li>Pin-Number, Delay, minimal and maximal position</li>
+</ul>
+</li>
+<li><strike>Setup for Sonar</strike></li>
+<li><strike>Setup for Vision</strike></li>
+</ul>
+<h2>FAQ's</h2>
+<h4>I'd like to use this code in my project. What do I need to know?</h4>
+<blockquote class="doxtable">
+<p>All you need to do is at the GitHub-Link to this Repo under <em>lib_deps</em> in your platformio.ini File and your good to go. All dependencies are downloaded automatic. The interface is documented in <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html">DriveCtrl</a>, <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_environment_detection.html">EnvironmentDetection</a> and <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html">HoistCtrl</a>. </p>
+</blockquote>
+<h3>ToDo's</h3>
+<h4>Hardware</h4>
+<ul>
+<li>[ ] The battery of the vehicle must be recharged by hand. Inductive charging while waiting would be desirable.</li>
+<li>[ ] Sensors for line recognition have an unfavourable distance to the turning point. They should be placed closer to the vehicle axis to increase the accuracy of alignment.</li>
+</ul>
+<h4>Software</h4>
+<p>The open ToDo's can be found in the Documentation on the <a href="https://lmazzole.github.io/SmartFactory_Box-Sortic/todo.html">GitHub-Page</a></p>
+<ul>
+<li>[ ] Implement Sonar</li>
+<li>[ ] Implement Vision <h2>Contributors</h2>
+</li>
+</ul>
+<ul>
+<li><a href="https://github.com/LMazzole">Luca Mazzoleni</a></li>
+<li>Glenn Patrick Huber</li>
+<li>Robert Paly</li>
+</ul>
+<h2>Changelog</h2>
+<p>V 1.0 - Release BA FS19 - <a href="https://github.com/LMazzole">Luca Mazzoleni</a></p>
+<h2>License</h2>
+<p>[TODO] </p>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

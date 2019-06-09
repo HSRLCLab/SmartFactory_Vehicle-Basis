@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['high',['high',['../class_hoist_ctrl.html#a97fd8345369aabb47f1036b1d788226aa8d966b2253a917086c8604959e152243',1,'HoistCtrl']]]
+  ['idle',['idle',['../class_drive_ctrl.html#aadb678910212391db0f91056084533adaec2f993aec2c27fc750119ab17b16cdb',1,'DriveCtrl']]]
 ];

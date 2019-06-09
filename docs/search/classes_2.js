@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['drive',['Drive',['../class_drive.html',1,'']]],
-  ['drivectrl',['DriveCtrl',['../class_drive_ctrl.html',1,'']]]
+  ['hoist',['Hoist',['../class_hoist.html',1,'']]],
+  ['hoistctrl',['HoistCtrl',['../class_hoist_ctrl.html',1,'']]]
 ];

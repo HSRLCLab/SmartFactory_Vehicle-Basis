@@ -9,7 +9,7 @@
  * @date 2019-04-23
  * @copyright Copyright (c) 2019
  * 
- * @todo solve linedetection with something like where was the line first detected and NOT with a (nonblocking) delay
+ * @todo Improve linedetection with something like: "where was the line first detected" and NOT with a (nonblocking) delay.
  *  This would allow to change the speed and still detect all lines correctly
  */
 
@@ -126,7 +126,7 @@ class DriveCtrl {
      *  4. Repeat steps 2 and 3 until increasing Kd does not dampen the oscillations
      *  5. Now increase Ki (Integral gain) to get a good system with desired number of oscillations (Ideally zero)
      * 
-     * @todo improve controller and make it adaptive to speedchanges
+     * @todo Improve controller and make it adaptive to speedchanges
      */
     PID pController = PID(&pController_Input, &pController_Output, &pController_Setpoint, pVal_p, pVal_i, pVal_d, DIRECT);
     Drive pDrive = Drive(RIGHT_MOTOR, LEFT_MOTOR);  ///< Drive Object

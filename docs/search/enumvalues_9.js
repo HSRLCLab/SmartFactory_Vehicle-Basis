@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['raise',['Raise',['../class_hoist_ctrl.html#a76f2b7dcb5beb85fbd5f9b5e29cf51f0a36ec8dc76bf55896199b1276242944af',1,'HoistCtrl']]],
-  ['raising',['raising',['../class_hoist_ctrl.html#a97fd8345369aabb47f1036b1d788226aaf96c092401f963653a329310d29f9f80',1,'HoistCtrl']]],
-  ['reset',['Reset',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daa526d688f37a86d3c3f27d0c5016eb71d',1,'DriveCtrl::Reset()'],['../class_hoist_ctrl.html#a76f2b7dcb5beb85fbd5f9b5e29cf51f0a526d688f37a86d3c3f27d0c5016eb71d',1,'HoistCtrl::Reset()']]],
-  ['resetstate',['resetState',['../class_drive_ctrl.html#aadb678910212391db0f91056084533ada18f44934484beaf4fe2743bb244a7205',1,'DriveCtrl::resetState()'],['../class_hoist_ctrl.html#a97fd8345369aabb47f1036b1d788226aa18f44934484beaf4fe2743bb244a7205',1,'HoistCtrl::resetState()']]],
-  ['resume',['Resume',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daaf1cefec9e2196c672a622347f1fbc325',1,'DriveCtrl::Resume()'],['../class_hoist_ctrl.html#a76f2b7dcb5beb85fbd5f9b5e29cf51f0af1cefec9e2196c672a622347f1fbc325',1,'HoistCtrl::Resume()']]],
-  ['right',['Right',['../class_drive.html#af743b338356ce72483e64716047fdf36a92b09c7c48c520c3c55e497875da437c',1,'Drive']]]
+  ['turnaround',['TurnAround',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daaa45a8c816d9472f1a52c9c0272c091c7',1,'DriveCtrl']]],
+  ['turningaround',['turningAround',['../class_drive_ctrl.html#aadb678910212391db0f91056084533adae5eccdb3aa0d2fcb812e0af5a27f7d25',1,'DriveCtrl']]],
+  ['turningleft',['turningLeft',['../class_drive_ctrl.html#aadb678910212391db0f91056084533ada11735044235346586b5d0ba74c200381',1,'DriveCtrl']]],
+  ['turningright',['turningRight',['../class_drive_ctrl.html#aadb678910212391db0f91056084533ada77b7c5722789800c59b99e17a43d8132',1,'DriveCtrl']]],
+  ['turnleft',['TurnLeft',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daa8240c76a9676d55f5d5bfeb9a6fc7028',1,'DriveCtrl']]],
+  ['turnright',['TurnRight',['../class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8daa40dfa38b645f971c52766aa367a474fd',1,'DriveCtrl']]]
 ];

@@ -1,10 +1,10 @@
 /**
  * @file LineDetector.h
- * @brief The Class LineDetector handels the Line detection-System 
+ * @brief The Class LineDetector handels the Line detection-system 
  * 
  * @author Luca Mazzoleni (luca.mazzoleni@hsr.ch)
  * 
- * @version 1.0 - Implementation LineDetectiion System  - Luca Mazzoleni (luca.mazzoleni@hsr.ch) - 2019-04-26
+ * @version 1.0 - Implementation LineDetection System  - Luca Mazzoleni (luca.mazzoleni@hsr.ch) - 2019-04-26
  * 
  * @date 2019-04-26
  * @copyright Copyright (c) 2019
@@ -38,14 +38,14 @@ class LineDetector {
     /**
      * @brief Recognise deviation from vehicle to line
      * 
-     * -10 Degree turn left \n
-     *  10 Degree turn right \n
-     * 180 full Line detected \n
-     * 200 Line Lost or ErrorValues \n
-     *  \n
-     *  4 Line is on the right side \n
-     *  0 Line is in the middle \n
-     * -4 Line is on the left side \n
+     * - -10 Degree turn left
+     * - 10 Degree turn right 
+     * - 180 full Line detected 
+     * - 200 Line Lost or ErrorValues
+     * -  
+     * - 4 Line is on the right side
+     * - 0 Line is in the middle
+     * - -4 Line is on the left side
      * 
      * @return const int - deviation from middle sensor
      */

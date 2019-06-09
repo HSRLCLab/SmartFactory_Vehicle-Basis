@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['doactionfptr',['doActionFPtr',['../class_drive_ctrl.html#a965aedee0c1a17e87b49f290fb899785',1,'DriveCtrl::doActionFPtr()'],['../class_hoist_ctrl.html#a3d4e7e31ca719dcc22cb6531ef928175',1,'HoistCtrl::doActionFPtr()']]]
+  ['ignoresensoraroundmillis',['ignoreSensorAroundMillis',['../class_drive_ctrl.html#adf210611cd8353edc28b953a1a6b6246',1,'DriveCtrl']]],
+  ['ignoresensorturnmillis',['ignoreSensorTurnMillis',['../class_drive_ctrl.html#ac77a69f12b6ee65fb04b3adbc9681e5b',1,'DriveCtrl']]]
 ];

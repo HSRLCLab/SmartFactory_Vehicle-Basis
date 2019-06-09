@@ -4,8 +4,8 @@
  * 
  * @author Glenn Huber (glenn.patrick.huber@hsr.ch)
  * 
- * @version 1.1 - Added Doxygen-Documentation  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
- * @version 1.0 - BA FTS FS 2018
+ * @version 1.0 - switched from define to const int  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
+ * @version 0.0 - BA FTS FS 2018
  * 
  * @date 2019-03-20
  * @copyright Copyright (c) 2019
@@ -16,33 +16,33 @@
 #define HARDWARECONFIGURATION_H
 
 //Setup for Drive /////////////////
-const double SPEEDFACTOR = 1.3;
-const unsigned int RIGHT_MOTOR = 1;                            ///<
-const unsigned int LEFT_MOTOR = 2;                             ///<
-const unsigned int SPEED = 70 * SPEEDFACTOR;                   ///<
-const unsigned int REDUCED_SPEED = SPEED * 0.8 * SPEEDFACTOR;  ///<
-const unsigned int TURNING_SPEED = 70 * SPEEDFACTOR;           ///<
+const double SPEEDFACTOR = 1.3;                                ///< The speed factor can be used to increase or decrease the complete speed. it affects all speed settings.
+const unsigned int RIGHT_MOTOR = 1;                            ///< Portnumber of the right motor on the motorshield
+const unsigned int LEFT_MOTOR = 2;                             ///< Portnumber of the left motor on the motorshield
+const unsigned int SPEED = 70 * SPEEDFACTOR;                   ///< Standard operating speed
+const unsigned int REDUCED_SPEED = SPEED * 0.8 * SPEEDFACTOR;  ///< Reduced operating speed
+const unsigned int TURNING_SPEED = 70 * SPEEDFACTOR;           ///< Turning speed
 // const unsigned int PUSH_SPEED = 80 * SPEEDFACTOR;     ///<
 
-const unsigned int PIN_SENSOR_0 = 13;  ///<
-const unsigned int PIN_SENSOR_1 = 12;  ///<
-const unsigned int PIN_SENSOR_2 = 11;  ///<
-const unsigned int PIN_SENSOR_3 = 10;  ///<
-const unsigned int PIN_SENSOR_4 = 9;   ///<
+const unsigned int PIN_SENSOR_0 = 13;  ///< Pin number of line detection sensor 0
+const unsigned int PIN_SENSOR_1 = 12;  ///< Pin number of line detection sensor 1
+const unsigned int PIN_SENSOR_2 = 11;  ///< Pin number of line detection sensor 2
+const unsigned int PIN_SENSOR_3 = 10;  ///< Pin number of line detection sensor 3
+const unsigned int PIN_SENSOR_4 = 9;   ///< Pin number of line detection sensor 4
 /////////////////////////////////////
 
 //Setup for Drive - PID /////////////////////
 #if SPEEDFACTOR < 2
-const double PID_KP = 10;     ///<
-const double PID_KI = 2;      ///<
-const double PID_KD = 0.005;  ///<
-// const double PID_KP = 5;      ///<
-// const double PID_KI = 2;      ///<
-// const double PID_KD = 0.001;  ///<
+const double PID_KP = 10;     ///< P-value of the PID-controller
+const double PID_KI = 2;      ///< I-value of the PID-controller
+const double PID_KD = 0.005;  ///< D-value of the PID-controller
+// const double PID_KP = 5;      ///< P-value of the PID-controller
+// const double PID_KI = 2;      ///< I-value of the PID-controller
+// const double PID_KD = 0.001;  ///< D-value of the PID-controller
 #else  //use an more agressiv PID
-const double K_P = 30;    ///<
-const double K_I = 20;    ///<
-const double K_D = 0.05;  ///<
+const double K_P = 30;    ///< P-value of the PID-controller
+const double K_I = 20;    ///< I-value of the PID-controller
+const double K_D = 0.05;  ///< D-value of the PID-controller
 #endif
 /////////////////////////////////////
 

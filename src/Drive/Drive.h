@@ -36,14 +36,14 @@ The speed parameter is a value between 0 and 255.
 */
 
 /**
- * @brief Class Drive handels the Driving-System
+ * @brief Class Drive handels the Driving-System and provides basic functions
  * 
  */
 class Drive {
     //=====PUBLIC====================================================================================
    public:
     /**
-    * @brief Direction holds all possible directions
+    * @brief Direction enum holds all possible directions
     * 
     */
     enum class Direction {
@@ -70,7 +70,7 @@ class Drive {
 
     /**
      * @brief Turn left or right.
-     * Speed will add to one Motor's actual speed and substract from the others depenig on wich side it turns
+     * Speed will add to one Motor's actual speed and substract from the others depenig on which side it turns
      * 
      * @param direction - left  or right
      * @param speed - Speed between 0 and 255

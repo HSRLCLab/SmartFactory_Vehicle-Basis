@@ -14,6 +14,10 @@
 
 //=====PUBLIC====================================================================================
 
+/**
+ * @todo Add a variable to compensate for differences in engine speed with the same control
+ * 
+ */
 Drive::Drive(const int MotorPortRight, const int MotorPortLeft) {
     DBFUNCCALLln("Drive::Drive(const int MotorPortRight, const int MotorPortLeft)");
     pMotorRight = pAFMS.getMotor(MotorPortRight);
@@ -46,9 +50,6 @@ void Drive::drive(Direction direction, unsigned int speed) {
     }
 }
 
-/**
- * @todo change direction if vehicle is moving forward or backward so the turndirectiomn still matches direction
- */
 void Drive::turn(Direction direction, unsigned int speed) {
     DBFUNCCALLln("Drive::turn(Direction direction, unsigned int speed)");
     switch (direction) {

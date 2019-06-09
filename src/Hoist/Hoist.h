@@ -1,21 +1,16 @@
 /**
  * @file Hoist.h
- * @brief Library for mechatronic component hoist.
+ * @brief The Class Hoist provides the basic functions for the hoist. 
  * 
  * The hoist module consists of a lifting mechanism powered by a servo motor.
  * 
  * @author Luca Mazzoleni (luca.mazzoleni@hsr.ch)
  * 
- * @version 2.0 - Refactored to match FSM Funccall  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-04-23
- * @version 1.1 - Added Doxygen-Documentation  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
- * @version 1.0 - BA FTS FS 2018 - Robert Paly (robert.paly@hsr.ch) Glenn Huber (glenn.patrick.huber@hsr.ch)
+ * @version 1.0 - Refactored to match FSM Funccall  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-04-23
+ * @version 0.0 - BA FTS FS 2018
  * 
- * @date 2019-03-20
- * @copyright Copyright (c) 2019
- * 
- * @todo make private variable const where necessary
- * @todo refactor private variable name -> pHoistServo
- * @todo add used servo-typ to documentation
+ * @todo Make private variable const where necessary
+ * @todo Refactor private variable name -> pHoistServo
  */
 
 #ifndef Hoist_h
@@ -27,7 +22,7 @@
 #include "Arduino.h"
 
 /**
- * @brief Provides the basic functions to controll the Hoist
+ * @brief Provides the basic functions to control the Hoist
  * 
  */
 class Hoist {
@@ -53,12 +48,15 @@ class Hoist {
     /**
      * @brief Raise the Hoist 1° per servodelay/call until it's at positionMax
      * 
+     * You need to call attach() first so that the function works properly.
+     * 
      */
     bool raise();
 
     /**
      * @brief Lower the Hoist 1° per servodelay/call until it's at positionMin
      * 
+     * You need to call attach() first so that the function works properly.
      */
     bool lower();
 

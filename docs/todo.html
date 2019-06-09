@@ -91,22 +91,23 @@ $(document).ready(function(){initNavTree('todo.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Member <a class="el" href="class_drive.html#a157b8dd477abef4845b1da0e19190edb">Drive::turn</a>  (Direction direction, unsigned int speed)</dt>
-<dd><a class="anchor" id="_todo000001"></a>change direction if vehicle is moving forward or backward so the turndirectiomn still matches direction  </dd>
+<dt>Member <a class="el" href="class_drive.html#ac8df4390fcc19c3bdda93a2fc61ab17a">Drive::Drive</a>  (const int MotorPortRight, const int MotorPortLeft)</dt>
+<dd><a class="anchor" id="_todo000001"></a>Add a variable to compensate for differences in engine speed with the same control </dd>
 <dt>File <a class="el" href="_drive_ctrl_8h.html">DriveCtrl.h</a>  </dt>
-<dd><a class="anchor" id="_todo000002"></a>solve linedetection with something like where was the line first detected and NOT with a (nonblocking) delay This would allow to change the speed and still detect all lines correctly  </dd>
+<dd><a class="anchor" id="_todo000002"></a>Improve linedetection with something like: "where was the line first detected" and NOT with a (nonblocking) delay. This would allow to change the speed and still detect all lines correctly  </dd>
 <dt>Member <a class="el" href="class_drive_ctrl.html#ae014c3028820938cf16f77a40f95b648">DriveCtrl::pController</a>  </dt>
-<dd><a class="anchor" id="_todo000003"></a>improve controller and make it adaptive to speedchanges  </dd>
+<dd><a class="anchor" id="_todo000003"></a>Improve controller and make it adaptive to speedchanges  </dd>
+<dt>File <a class="el" href="_environment_detection_8h.html">EnvironmentDetection.h</a>  </dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000009"></a>Implement the Vision for a better BoxDetection </p>
+<p class="enddd">Implement Sonar for obstacle detection </p>
+</dd>
 <dt>File <a class="el" href="_hoist_8h.html">Hoist.h</a>  </dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000011"></a>make private variable const where necessary </p>
-<p class="interdd">refactor private variable name -&gt; pHoistServo </p>
-<p class="enddd">add used servo-typ to documentation  </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000010"></a>Make private variable const where necessary </p>
+<p class="enddd">Refactor private variable name -&gt; pHoistServo  </p>
 </dd>
 <dt>Member <a class="el" href="class_line_detector.html#ad63b0df911e5530605d86fe605dcfbb3">LineDetector::deviation</a>  ()</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000004"></a>use some Matrix Bit Magic</p>
-<p class="interdd"><a class="anchor" id="_todo000005"></a>line lost case </p>
-<p class="interdd"><a class="anchor" id="_todo000006"></a>line lost </p>
-<p class="enddd"><a class="anchor" id="_todo000007"></a>wired results </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000004"></a>Use some Matrix Bit Magic for more efficency</p>
+<p class="enddd"><a class="anchor" id="_todo000005"></a>Improve handling in case of error of impossible sensor values </p>
 </dd>
 </dl>
 </div></div><!-- PageDoc -->

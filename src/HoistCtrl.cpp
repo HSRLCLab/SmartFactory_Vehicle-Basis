@@ -158,7 +158,6 @@ void HoistCtrl::entryAction_high() {
 HoistCtrl::Event HoistCtrl::doAction_high() {
     DBINFO1ln("Hoist State: high");
     //Generate Event
-
     return Event::NoEvent;
 }
 
@@ -201,7 +200,6 @@ void HoistCtrl::entryAction_errorState() {
 HoistCtrl::Event HoistCtrl::doAction_errorState() {
     DBINFO1ln("Hoist State: errorState");
     //Generate the Event
-
     return Event::NoEvent;
 }
 

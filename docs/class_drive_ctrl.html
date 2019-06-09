@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('class_drive_ctrl.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Contains the FSM to controll the <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a>.  
+<p>Contains the FSM to controll the <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a>.  
  <a href="class_drive_ctrl.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>&gt;</code></p>
@@ -107,7 +107,7 @@ Collaboration diagram for DriveCtrl:</div>
 <div class="center"><img src="class_drive_ctrl__coll__graph.png" border="0" usemap="#_drive_ctrl_coll__map" alt="Collaboration graph"/></div>
 <map name="_drive_ctrl_coll__map" id="_drive_ctrl_coll__map">
 <area shape="rect"  title="Contains the FSM to controll the Drive." alt="" coords="43,184,114,211"/>
-<area shape="rect"  href="class_drive.html" title="Class Drive handels the Driving&#45;System." alt="" coords="5,95,56,121"/>
+<area shape="rect"  href="class_drive.html" title="Class Drive handels the Driving&#45;System and provides basic functions." alt="" coords="5,95,56,121"/>
 <area shape="rect"  href="class_environment_detection.html" title="Provides an Interface for all Enviroment detection Systems of the Vehilce." alt="" coords="81,95,229,121"/>
 <area shape="rect"  href="class_line_detector.html" title="Class LineDetector handels the Line detection&#45;System." alt="" coords="107,5,202,32"/>
 </map>
@@ -151,7 +151,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9dc3b057939e2e337850e6b1bb35dce9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#a9dc3b057939e2e337850e6b1bb35dce9">DriveCtrl</a> ()</td></tr>
-<tr class="memdesc:a9dc3b057939e2e337850e6b1bb35dce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> Ctrl object and set the currentState with idle state and initialize the PID-Controller.  <a href="#a9dc3b057939e2e337850e6b1bb35dce9">More...</a><br /></td></tr>
+<tr class="memdesc:a9dc3b057939e2e337850e6b1bb35dce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> Ctrl object and set the currentState with idle state and initialize the PID-Controller.  <a href="#a9dc3b057939e2e337850e6b1bb35dce9">More...</a><br /></td></tr>
 <tr class="separator:a9dc3b057939e2e337850e6b1bb35dce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd901e2ba43bb4f6accec69bf714897c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#afd901e2ba43bb4f6accec69bf714897c">loop</a> ()</td></tr>
 <tr class="memdesc:afd901e2ba43bb4f6accec69bf714897c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the do-function of the active state and hence generates Events.  <a href="#afd901e2ba43bb4f6accec69bf714897c">More...</a><br /></td></tr>
@@ -298,14 +298,14 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ae014c3028820938cf16f77a40f95b648"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID-Controller Object.  <a href="#ae014c3028820938cf16f77a40f95b648">More...</a><br /></td></tr>
 <tr class="separator:ae014c3028820938cf16f77a40f95b648"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af69379598ee826855dfafe9a76f2364f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_drive.html">Drive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#af69379598ee826855dfafe9a76f2364f">pDrive</a> = <a class="el" href="class_drive.html">Drive</a>(<a class="el" href="_hardware_configuration_8h.html#a7a11b2a95ce57ef2c4c98eaeb7204014">RIGHT_MOTOR</a>, <a class="el" href="_hardware_configuration_8h.html#af5df0cfdfb3c479eba2cdbfec7c217ae">LEFT_MOTOR</a>)</td></tr>
-<tr class="memdesc:af69379598ee826855dfafe9a76f2364f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> Object.  <a href="#af69379598ee826855dfafe9a76f2364f">More...</a><br /></td></tr>
+<tr class="memdesc:af69379598ee826855dfafe9a76f2364f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> Object.  <a href="#af69379598ee826855dfafe9a76f2364f">More...</a><br /></td></tr>
 <tr class="separator:af69379598ee826855dfafe9a76f2364f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae79c2b3c1db0d10b26e2d50c2e2588ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_environment_detection.html">EnvironmentDetection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive_ctrl.html#ae79c2b3c1db0d10b26e2d50c2e2588ba">pEnvdetect</a></td></tr>
 <tr class="memdesc:ae79c2b3c1db0d10b26e2d50c2e2588ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">EnviromentDetection Object.  <a href="#ae79c2b3c1db0d10b26e2d50c2e2588ba">More...</a><br /></td></tr>
 <tr class="separator:ae79c2b3c1db0d10b26e2d50c2e2588ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Contains the FSM to controll the <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a>. </p>
+<div class="textblock"><p>Contains the FSM to controll the <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a>. </p>
 <div class="image">
 <img src="DriveCtrl.png" alt="DriveCtrl.png" width="1000"/>
 </div>
@@ -422,7 +422,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> Ctrl object and set the currentState with idle state and initialize the PID-Controller. </p>
+<p>Construct a new <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> Ctrl object and set the currentState with idle state and initialize the PID-Controller. </p>
 
 <p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00017">17</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
 
@@ -1542,7 +1542,7 @@ Private Attributes</h2></td></tr>
 <li>Repeat steps 2 and 3 until increasing Kd does not dampen the oscillations</li>
 <li>Now increase Ki (Integral gain) to get a good system with desired number of oscillations (Ideally zero)</li>
 </ol>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>improve controller and make it adaptive to speedchanges </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Improve controller and make it adaptive to speedchanges </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00131">131</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
 
@@ -1646,7 +1646,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System.">Drive</a> Object. </p>
+<p><a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> Object. </p>
 
 <p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00132">132</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
 

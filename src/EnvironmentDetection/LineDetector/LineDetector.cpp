@@ -27,9 +27,9 @@ LineDetector::LineDetector(const int sensorPin_0, const int sensorPin_1,
 }
 
 /**
- * @todo use some Matrix Bit Magic
+ * @todo Use some Matrix Bit Magic for more efficency
  * 
- * @todo line lost case
+ * @todo Improve handling in case of error of impossible sensor values
  */
 const int LineDetector::deviation() {
     DBFUNCCALLln("LineDetector::deviation()");
@@ -77,12 +77,12 @@ const int LineDetector::deviation() {
         return 0;
     } else if ((pSensorLL == 0) && (pSensorL == 0) && (pSensorM == 0) && (pSensorR == 0) && (pSensorRR == 0)) {
         DBINFO3ln("No line detected");
-        return 200;  ///@todo line lost
+        return 200;
     } else {
         DBWARNINGln("LineDetector: Unexpected Results");
         DBWARNINGln(String("LinePosition: ") + String(pSensorLL) + String(pSensorL) + String(pSensorM) + String(pSensorR) + String(pSensorRR));
 
-        return 200;  ///@todo wired results
+        return 200;
     }
 }
 

@@ -1,24 +1,24 @@
-// /**
-//  * @file Sonar.cpp
-//  * @brief Library for mechatronic component sonar.
-//  *
-//  * The sonar module consists of a sonar sensor and a servo motor.
-//  * Based on the deviation of the sonar to the focus point an error is
-//  * given to the loop to turn the sonar to the right direction.
-//  *
-//  * @author Luca Mazzoleni (luca.mazzoleni@hsr.ch)
-//  * @author Glenn Huber (glenn.patrick.huber@hsr.ch)
-//  * @author Robert Paly (robert.paly@hsr.ch)
-//  * @author Felix Nyffenegger (felix.nyffenegger@hsr.ch)
-//  *
-//  * @version 1.2 - Added Test-case - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
-//  * @version 1.1 - Added Doxygen-Documentation  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
-//  * @version 1.0 - BA FTS FS 2018
-//  *
-//  * @date 2019-03-20
-//  * @copyright Copyright (c) 2019
-//  *
-//  */
+/**
+ * @file Sonar.cpp
+ * @brief TODO Library for mechatronic component sonar.
+ *
+ * The sonar module consists of a sonar sensor and a servo motor.
+ * Based on the deviation of the sonar to the focus point an error is
+ * given to the loop to turn the sonar to the right direction.
+ *
+ * @author Luca Mazzoleni (luca.mazzoleni@hsr.ch)
+ * @author Glenn Huber (glenn.patrick.huber@hsr.ch)
+ * @author Robert Paly (robert.paly@hsr.ch)
+ * @author Felix Nyffenegger (felix.nyffenegger@hsr.ch)
+ *
+ * @version 1.2 - Added Test-case - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
+ * @version 1.1 - Added Doxygen-Documentation  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
+ * @version 1.0 - BA FTS FS 2018
+ *
+ * @date 2019-03-20
+ * @copyright Copyright (c) 2019
+ *
+ */
 
 // #include "Sonar.h"
 // #include "Arduino.h"

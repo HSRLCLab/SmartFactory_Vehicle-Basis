@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['environmentdetection',['EnvironmentDetection',['../class_environment_detection.html',1,'']]]
+  ['linedetector',['LineDetector',['../class_line_detector.html',1,'']]]
 ];

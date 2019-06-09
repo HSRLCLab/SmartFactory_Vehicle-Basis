@@ -1,24 +1,24 @@
-// /**
-//  * @file Vision.cpp
-//  *
-//  * @brief Library for mechatronic component vision.
-//  *
-//  * The vision module consists of a pixy-cam and a servo motor.
-//  * The cam searches for target-objects and adjusts its position to that direction.
-//  * Afterwarts it sends information for course adaption.
-//  *
-//  * @author Luca Mazzoleni (luca.mazzoleni@hsr.ch)
-//  * @author Glenn Huber (glenn.patrick.huber@hsr.ch)
-//  *
-//  * @version 1.2 - Added Test-case - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
-//  * @version 1.1 - Added Doxygen-Documentation  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-05
-//  * @version 1.0 - BA FTS FS 2018
-//  *
-//  * @date 2019-06-05
-//  *
-//  * @copyright Copyright (c) 2019
-//  *
-//  */
+/**
+ * @file Vision.cpp
+ *
+ * @brief TODO Library for mechatronic component vision.
+ *
+ * The vision module consists of a pixy-cam and a servo motor.
+ * The cam searches for target-objects and adjusts its position to that direction.
+ * Afterwarts it sends information for course adaption.
+ *
+ * @author Luca Mazzoleni (luca.mazzoleni@hsr.ch)
+ * @author Glenn Huber (glenn.patrick.huber@hsr.ch)
+ *
+ * @version 1.2 - Added Test-case - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-20
+ * @version 1.1 - Added Doxygen-Documentation  - Luca Mazzoleni (luca.mazzoleni@hsr.ch)  - 2019-03-05
+ * @version 1.0 - BA FTS FS 2018
+ *
+ * @date 2019-06-05
+ *
+ * @copyright Copyright (c) 2019
+ *
+ */
 
 // #include "Vision.h"
 // #include "Arduino.h"

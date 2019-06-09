@@ -1,6 +1,6 @@
 /**
  * @file HoistCtrl.h
- * @brief The Hoist Controll class contains the FSM for the Hoist
+ * @brief The Hoist-Controll class contains the FSM for the Hoist
  * 
  * @author Luca Mazzoleni (luca.mazzoleni@hsr.ch)
  * 
@@ -35,7 +35,7 @@ class HoistCtrl {
                        Lower,       ///< Ext: Start Lower
                        PosReached,  ///< Signal: Position reached
                        Error,       ///< Error occured
-                       Resume,      ///< Ext: Resume after Error occured
+                       Resume,      ///< Ext.: Resume after Error occured
                        Reset,       ///< Ext.: Reset after Error occured
                        NoEvent      ///< No event generated
     };

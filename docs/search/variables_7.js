@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['outbuf',['outBuf',['../class_link_s_p_i___s_s.html#ae0ba8121d0585634a1653184e8e2467e',1,'LinkSPI_SS']]],
-  ['outindex',['outIndex',['../class_link_s_p_i___s_s.html#a3d892d3fd64c57949575c40c585062e2',1,'LinkSPI_SS']]],
-  ['outlen',['outLen',['../class_link_s_p_i___s_s.html#a059960060fcd8a52c2fed1d2c2c59673',1,'LinkSPI_SS']]],
-  ['outq',['outQ',['../class_link_s_p_i.html#afe975d5595507f26019ef6a31edd8495',1,'LinkSPI']]]
+  ['servodelay',['servoDelay',['../class_hoist.html#a1749bc391ce45dea153c6d8d939b4aaf',1,'Hoist']]],
+  ['servopin',['servoPin',['../class_hoist.html#ab5bf589b94566d5578980e298c4263c1',1,'Hoist']]],
+  ['speed',['SPEED',['../_hardware_configuration_8h.html#adb7f9566c2c7d5ebf724e420d8ec247c',1,'HardwareConfiguration.h']]],
+  ['speedfactor',['SPEEDFACTOR',['../_hardware_configuration_8h.html#a259dcd3a895ad5520f48604212d538b8',1,'HardwareConfiguration.h']]]
 ];

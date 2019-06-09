@@ -1,6 +1,6 @@
 // /**
 //  * @file Vision.h
-//  * @brief Library for mechatronic component vision.
+//  * @brief TODO Library for mechatronic component vision.
 //  *
 //  * The vision module consists of a pixy-cam and a servo motor.
 //  * The cam searches for target-objects and adjusts its position to that direction.
