@@ -429,822 +429,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a01352938e1d1f06ea75db7bbdbe71158"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01352938e1d1f06ea75db7bbdbe71158">&#9670;&nbsp;</a></span>decodeEvent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String DriveCtrl::decodeEvent </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">Event</a>&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Decodes the Event-Enum and returns a description. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">event</td><td>- enum Event </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>String - Event as String </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00414">414</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a990243cad9a3b10a47aecb2c7e56ecca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a990243cad9a3b10a47aecb2c7e56ecca">&#9670;&nbsp;</a></span>decodeState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String DriveCtrl::decodeState </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_drive_ctrl.html#aadb678910212391db0f91056084533ad">State</a>&#160;</td>
-          <td class="paramname"><em>state</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Decodes the State-Enum and returns a description. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">state</td><td>- enum State </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>String - State as String </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00389">389</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a417dc1cf3e4a3f926bb7b0076d7f23b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a417dc1cf3e4a3f926bb7b0076d7f23b9">&#9670;&nbsp;</a></span>doAction_errorState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_errorState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>main action of the errorState </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00360">360</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a86eb2633eb5eb51963543c859d30dcfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86eb2633eb5eb51963543c859d30dcfd">&#9670;&nbsp;</a></span>doAction_followingLineBackward()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_followingLineBackward </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the main action of the followingLineBackward </p>
-<p>Check Line-deviation and correct accordingly via PID-Controller and drive until a FullLine is Detected. Return Event FullLine else reutrn NoEvent.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00314">314</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a7acd98a31300d46b92017e4eabe9d36e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7acd98a31300d46b92017e4eabe9d36e">&#9670;&nbsp;</a></span>doAction_followingLineForward()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_followingLineForward </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the main action of the followingLineForward </p>
-<p>Check Line-deviation and correct accordingly via PID-Controller and drive until a FullLine is Detected. Return Event FullLine else reutrn NoEvent.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00267">267</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a529664e16ca310066ce21d3ed2c93b42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a529664e16ca310066ce21d3ed2c93b42">&#9670;&nbsp;</a></span>doAction_idle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_idle </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the main action of the idle </p>
-<p>This is an idle-state. Return NoEvent.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00163">163</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a6a45b075202c78338cf7f4eb82cc4e0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a45b075202c78338cf7f4eb82cc4e0f">&#9670;&nbsp;</a></span>doAction_resetState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_resetState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>main action of the resetState </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00377">377</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="afd85c4e72c47fc44eea606019ed8756c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd85c4e72c47fc44eea606019ed8756c">&#9670;&nbsp;</a></span>doAction_turningAround()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_turningAround </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the main action of the turningAround </p>
-<p>Turn Right until the line is aligned again. Return LineAligned else return no Event.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00237">237</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ae21eb4b81b0ee4858b4101b010bca88a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae21eb4b81b0ee4858b4101b010bca88a">&#9670;&nbsp;</a></span>doAction_turningLeft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_turningLeft </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the main action of the turningLeft </p>
-<p>Turn Left until the line is aligned again. Return LineAligned else return no Event.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00184">184</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a7b6db585e8bd34b3325f7aac2166fec0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6db585e8bd34b3325f7aac2166fec0">&#9670;&nbsp;</a></span>doAction_turningRight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_turningRight </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the main action of the turningRight </p>
-<p>Turn Right until the line is aligned again. Return LineAligned else return no Event.</p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00210">210</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a385318afa5875774019d88c527586c0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a385318afa5875774019d88c527586c0c">&#9670;&nbsp;</a></span>entryAction_errorState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_errorState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>entry action of the errorState </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00351">351</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="abe2a61134079e3dbe2f8c3eab0399588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe2a61134079e3dbe2f8c3eab0399588">&#9670;&nbsp;</a></span>entryAction_followingLineBackward()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_followingLineBackward </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the entry action of the followingLineBackward </p>
-<p>Start Driving Straight </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00300">300</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a1d707a46b7a1d30e2888b5ee7b906461"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d707a46b7a1d30e2888b5ee7b906461">&#9670;&nbsp;</a></span>entryAction_followingLineForward()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_followingLineForward </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the entry action of the followingLineForward </p>
-<p>Start Driving Straight </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00256">256</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="adcdeea066d8fa266009f66c7947de607"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcdeea066d8fa266009f66c7947de607">&#9670;&nbsp;</a></span>entryAction_idle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_idle </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the entry action of the idle </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00156">156</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="af2d8a2c77490a4e63f90326f67cb1b98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2d8a2c77490a4e63f90326f67cb1b98">&#9670;&nbsp;</a></span>entryAction_resetState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_resetState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>entry action of the resetState </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00371">371</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ab6bf406f898aa361d79b971efc02b201"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6bf406f898aa361d79b971efc02b201">&#9670;&nbsp;</a></span>entryAction_turningAround()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_turningAround </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the entry action of the turningAround </p>
-<p>Start Turning Right. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00226">226</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a802e7025765f1c4c7d10e33ba2694a65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a802e7025765f1c4c7d10e33ba2694a65">&#9670;&nbsp;</a></span>entryAction_turningLeft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_turningLeft </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the entry action of the turningLeft </p>
-<p>Start Turning Left. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00174">174</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a847527c09978f4f5517c0a350009c1a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a847527c09978f4f5517c0a350009c1a5">&#9670;&nbsp;</a></span>entryAction_turningRight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::entryAction_turningRight </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the entry action of the turningRight </p>
-<p>Start Turning Right. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00200">200</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a2f5c38b393878e0ccfa15472883ca8f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f5c38b393878e0ccfa15472883ca8f6">&#9670;&nbsp;</a></span>exitAction_errorState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_errorState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>exit action of the errorState </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00366">366</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a6c1a82b4653f34d17d3713cfbe64653d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c1a82b4653f34d17d3713cfbe64653d">&#9670;&nbsp;</a></span>exitAction_followingLineBackward()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_followingLineBackward </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the exit action of the followingLineBackward </p>
-<p>Stop driving. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00343">343</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a7e1f807d7111d2f9403157bce309c737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e1f807d7111d2f9403157bce309c737">&#9670;&nbsp;</a></span>exitAction_followingLineForward()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_followingLineForward </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the exit action of the followingLineForward </p>
-<p>Stop driving. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00294">294</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="abe9208aba898e31c0b581688f67ac550"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe9208aba898e31c0b581688f67ac550">&#9670;&nbsp;</a></span>exitAction_idle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_idle </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the exit action of the idle </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00169">169</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a17119c3d04e7e4593bd57953cdf4f147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17119c3d04e7e4593bd57953cdf4f147">&#9670;&nbsp;</a></span>exitAction_resetState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_resetState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>exit action of the resetState </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00383">383</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="afc131841b544733e3fec6ebcb136e301"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc131841b544733e3fec6ebcb136e301">&#9670;&nbsp;</a></span>exitAction_turningAround()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_turningAround </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the exit action of the turningAround </p>
-<p>Stop Driving. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00250">250</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="aa9e3cc42d06930e3b7493243c0bb9c3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9e3cc42d06930e3b7493243c0bb9c3e">&#9670;&nbsp;</a></span>exitAction_turningLeft()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_turningLeft </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the exit action of the turningLeft </p>
-<p>Stop Driving. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00194">194</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a6c699277223f3414da47ad7136d1810b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c699277223f3414da47ad7136d1810b">&#9670;&nbsp;</a></span>exitAction_turningRight()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DriveCtrl::exitAction_turningRight </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>executes the exit action of the turningRight </p>
-<p>Stop Driving. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00220">220</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
-<a id="add761ee7362df8237d7bbaa7f0d7f513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add761ee7362df8237d7bbaa7f0d7f513">&#9670;&nbsp;</a></span>getcurrentState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_drive_ctrl.html#aadb678910212391db0f91056084533ad">DriveCtrl::State</a> DriveCtrl::getcurrentState </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the current State. </p>
-<dl class="section return"><dt>Returns</dt><dd>State - current State </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00037">37</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
-
-</div>
-</div>
 <a id="afd901e2ba43bb4f6accec69bf714897c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd901e2ba43bb4f6accec69bf714897c">&#9670;&nbsp;</a></span>loop() <span class="overload">[1/2]</span></h2>
 
@@ -1294,6 +478,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="add761ee7362df8237d7bbaa7f0d7f513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add761ee7362df8237d7bbaa7f0d7f513">&#9670;&nbsp;</a></span>getcurrentState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_drive_ctrl.html#aadb678910212391db0f91056084533ad">DriveCtrl::State</a> DriveCtrl::getcurrentState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current State. </p>
+<dl class="section return"><dt>Returns</dt><dd>State - current State </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00037">37</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
 <a id="aa77ae942a68ca0bec366da120078b19d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa77ae942a68ca0bec366da120078b19d">&#9670;&nbsp;</a></span>process()</h2>
 
@@ -1330,9 +536,803 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adcdeea066d8fa266009f66c7947de607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcdeea066d8fa266009f66c7947de607">&#9670;&nbsp;</a></span>entryAction_idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_idle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the entry action of the idle </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00156">156</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a529664e16ca310066ce21d3ed2c93b42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a529664e16ca310066ce21d3ed2c93b42">&#9670;&nbsp;</a></span>doAction_idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_idle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the main action of the idle </p>
+<p>This is an idle-state. Return NoEvent.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00163">163</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abe9208aba898e31c0b581688f67ac550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe9208aba898e31c0b581688f67ac550">&#9670;&nbsp;</a></span>exitAction_idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_idle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the exit action of the idle </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00169">169</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a802e7025765f1c4c7d10e33ba2694a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802e7025765f1c4c7d10e33ba2694a65">&#9670;&nbsp;</a></span>entryAction_turningLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_turningLeft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the entry action of the turningLeft </p>
+<p>Start Turning Left. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00174">174</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae21eb4b81b0ee4858b4101b010bca88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae21eb4b81b0ee4858b4101b010bca88a">&#9670;&nbsp;</a></span>doAction_turningLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_turningLeft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the main action of the turningLeft </p>
+<p>Turn Left until the line is aligned again. Return LineAligned else return no Event.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00184">184</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa9e3cc42d06930e3b7493243c0bb9c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9e3cc42d06930e3b7493243c0bb9c3e">&#9670;&nbsp;</a></span>exitAction_turningLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_turningLeft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the exit action of the turningLeft </p>
+<p>Stop Driving. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00194">194</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a847527c09978f4f5517c0a350009c1a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a847527c09978f4f5517c0a350009c1a5">&#9670;&nbsp;</a></span>entryAction_turningRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_turningRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the entry action of the turningRight </p>
+<p>Start Turning Right. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00200">200</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7b6db585e8bd34b3325f7aac2166fec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6db585e8bd34b3325f7aac2166fec0">&#9670;&nbsp;</a></span>doAction_turningRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_turningRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the main action of the turningRight </p>
+<p>Turn Right until the line is aligned again. Return LineAligned else return no Event.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00210">210</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6c699277223f3414da47ad7136d1810b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c699277223f3414da47ad7136d1810b">&#9670;&nbsp;</a></span>exitAction_turningRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_turningRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the exit action of the turningRight </p>
+<p>Stop Driving. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00220">220</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab6bf406f898aa361d79b971efc02b201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6bf406f898aa361d79b971efc02b201">&#9670;&nbsp;</a></span>entryAction_turningAround()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_turningAround </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the entry action of the turningAround </p>
+<p>Start Turning Right. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00226">226</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afd85c4e72c47fc44eea606019ed8756c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd85c4e72c47fc44eea606019ed8756c">&#9670;&nbsp;</a></span>doAction_turningAround()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_turningAround </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the main action of the turningAround </p>
+<p>Turn Right until the line is aligned again. Return LineAligned else return no Event.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00237">237</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afc131841b544733e3fec6ebcb136e301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc131841b544733e3fec6ebcb136e301">&#9670;&nbsp;</a></span>exitAction_turningAround()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_turningAround </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the exit action of the turningAround </p>
+<p>Stop Driving. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00250">250</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1d707a46b7a1d30e2888b5ee7b906461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d707a46b7a1d30e2888b5ee7b906461">&#9670;&nbsp;</a></span>entryAction_followingLineForward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_followingLineForward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the entry action of the followingLineForward </p>
+<p>Start Driving Straight </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00256">256</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7acd98a31300d46b92017e4eabe9d36e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7acd98a31300d46b92017e4eabe9d36e">&#9670;&nbsp;</a></span>doAction_followingLineForward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_followingLineForward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the main action of the followingLineForward </p>
+<p>Check Line-deviation and correct accordingly via PID-Controller and drive until a FullLine is Detected. Return Event FullLine else reutrn NoEvent.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00267">267</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7e1f807d7111d2f9403157bce309c737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e1f807d7111d2f9403157bce309c737">&#9670;&nbsp;</a></span>exitAction_followingLineForward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_followingLineForward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the exit action of the followingLineForward </p>
+<p>Stop driving. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00294">294</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="abe2a61134079e3dbe2f8c3eab0399588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe2a61134079e3dbe2f8c3eab0399588">&#9670;&nbsp;</a></span>entryAction_followingLineBackward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_followingLineBackward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the entry action of the followingLineBackward </p>
+<p>Start Driving Straight </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00300">300</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a86eb2633eb5eb51963543c859d30dcfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86eb2633eb5eb51963543c859d30dcfd">&#9670;&nbsp;</a></span>doAction_followingLineBackward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_followingLineBackward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the main action of the followingLineBackward </p>
+<p>Check Line-deviation and correct accordingly via PID-Controller and drive until a FullLine is Detected. Return Event FullLine else reutrn NoEvent.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00314">314</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6c1a82b4653f34d17d3713cfbe64653d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c1a82b4653f34d17d3713cfbe64653d">&#9670;&nbsp;</a></span>exitAction_followingLineBackward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_followingLineBackward </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>executes the exit action of the followingLineBackward </p>
+<p>Stop driving. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00343">343</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a385318afa5875774019d88c527586c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a385318afa5875774019d88c527586c0c">&#9670;&nbsp;</a></span>entryAction_errorState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_errorState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>entry action of the errorState </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00351">351</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a417dc1cf3e4a3f926bb7b0076d7f23b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a417dc1cf3e4a3f926bb7b0076d7f23b9">&#9670;&nbsp;</a></span>doAction_errorState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_errorState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>main action of the errorState </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00360">360</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2f5c38b393878e0ccfa15472883ca8f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f5c38b393878e0ccfa15472883ca8f6">&#9670;&nbsp;</a></span>exitAction_errorState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_errorState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>exit action of the errorState </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00366">366</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af2d8a2c77490a4e63f90326f67cb1b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d8a2c77490a4e63f90326f67cb1b98">&#9670;&nbsp;</a></span>entryAction_resetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::entryAction_resetState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>entry action of the resetState </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00371">371</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a6a45b075202c78338cf7f4eb82cc4e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a45b075202c78338cf7f4eb82cc4e0f">&#9670;&nbsp;</a></span>doAction_resetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">DriveCtrl::Event</a> DriveCtrl::doAction_resetState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>main action of the resetState </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da" title="Enum holds all possible events.">DriveCtrl::Event</a> - generated Event </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00377">377</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a17119c3d04e7e4593bd57953cdf4f147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17119c3d04e7e4593bd57953cdf4f147">&#9670;&nbsp;</a></span>exitAction_resetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DriveCtrl::exitAction_resetState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>exit action of the resetState </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00383">383</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a990243cad9a3b10a47aecb2c7e56ecca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990243cad9a3b10a47aecb2c7e56ecca">&#9670;&nbsp;</a></span>decodeState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String DriveCtrl::decodeState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_drive_ctrl.html#aadb678910212391db0f91056084533ad">State</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decodes the State-Enum and returns a description. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>- enum State </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String - State as String </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00389">389</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a01352938e1d1f06ea75db7bbdbe71158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01352938e1d1f06ea75db7bbdbe71158">&#9670;&nbsp;</a></span>decodeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String DriveCtrl::decodeEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">Event</a>&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decodes the Event-Enum and returns a description. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>- enum Event </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String - Event as String </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8cpp_source.html#l00414">414</a> of file <a class="el" href="_drive_ctrl_8cpp_source.html">DriveCtrl.cpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab4dbd708aaa85fef281062514f69d90d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4dbd708aaa85fef281062514f69d90d">&#9670;&nbsp;</a></span>currentEvent</h2>
+<a id="a70eaa12f9d9c570c67e8171a1ff053e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70eaa12f9d9c570c67e8171a1ff053e9">&#9670;&nbsp;</a></span>lastStateBevorError</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1341,7 +1341,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">Event</a> DriveCtrl::currentEvent</td>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#aadb678910212391db0f91056084533ad">State</a> DriveCtrl::lastStateBevorError</td>
         </tr>
       </table>
   </td>
@@ -1351,35 +1351,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>holds the current event of the FSM </p>
+<p>holds the last state of the FSM so it's possible to resume after error </p>
 
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00097">97</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
-
-</div>
-</div>
-<a id="aa74647e3c9045787048edd81df9aa6a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa74647e3c9045787048edd81df9aa6a9">&#9670;&nbsp;</a></span>currentMillis</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned long DriveCtrl::currentMillis = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>will store current time </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00106">106</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00095">95</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
 
 </div>
 </div>
@@ -1406,6 +1380,32 @@ Private Attributes</h2></td></tr>
 <p>holds the current state of the FSM </p>
 
 <p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00096">96</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+
+</div>
+</div>
+<a id="ab4dbd708aaa85fef281062514f69d90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4dbd708aaa85fef281062514f69d90d">&#9670;&nbsp;</a></span>currentEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive_ctrl.html#ae3e758374bbb5879814e961b5232d8da">Event</a> DriveCtrl::currentEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>holds the current event of the FSM </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00097">97</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
 
 </div>
 </div>
@@ -1436,8 +1436,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adf210611cd8353edc28b953a1a6b6246"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf210611cd8353edc28b953a1a6b6246">&#9670;&nbsp;</a></span>ignoreSensorAroundMillis</h2>
+<a id="aa74647e3c9045787048edd81df9aa6a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa74647e3c9045787048edd81df9aa6a9">&#9670;&nbsp;</a></span>currentMillis</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1446,7 +1446,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const unsigned long DriveCtrl::ignoreSensorAroundMillis = 1500</td>
+          <td class="memname">unsigned long DriveCtrl::currentMillis = 0</td>
         </tr>
       </table>
   </td>
@@ -1456,9 +1456,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets how long the sensors are ignored for a turning around </p>
+<p>will store current time </p>
 
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00109">109</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00106">106</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+
+</div>
+</div>
+<a id="a33c7c0a652229d717a8f7a54699a4865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33c7c0a652229d717a8f7a54699a4865">&#9670;&nbsp;</a></span>previousMillis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long DriveCtrl::previousMillis = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>will store last time </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00107">107</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
 
 </div>
 </div>
@@ -1488,8 +1514,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a70eaa12f9d9c570c67e8171a1ff053e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70eaa12f9d9c570c67e8171a1ff053e9">&#9670;&nbsp;</a></span>lastStateBevorError</h2>
+<a id="adf210611cd8353edc28b953a1a6b6246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf210611cd8353edc28b953a1a6b6246">&#9670;&nbsp;</a></span>ignoreSensorAroundMillis</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1498,7 +1524,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_drive_ctrl.html#aadb678910212391db0f91056084533ad">State</a> DriveCtrl::lastStateBevorError</td>
+          <td class="memname">const unsigned long DriveCtrl::ignoreSensorAroundMillis = 1500</td>
         </tr>
       </table>
   </td>
@@ -1508,43 +1534,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>holds the last state of the FSM so it's possible to resume after error </p>
+<p>sets how long the sensors are ignored for a turning around </p>
 
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00095">95</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
-
-</div>
-</div>
-<a id="ae014c3028820938cf16f77a40f95b648"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae014c3028820938cf16f77a40f95b648">&#9670;&nbsp;</a></span>pController</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">PID DriveCtrl::pController = PID(&amp;<a class="el" href="class_drive_ctrl.html#ade1cd453bcf2371f056c1baaa897d4d5">pController_Input</a>, &amp;<a class="el" href="class_drive_ctrl.html#a126a23c207f91cffb3ddde49ed2eeb8d">pController_Output</a>, &amp;<a class="el" href="class_drive_ctrl.html#a23e554291745c6c19022e00c6f6ac427">pController_Setpoint</a>, <a class="el" href="class_drive_ctrl.html#a5084573d62ae8ac7708b7e6b7b0c3781">pVal_p</a>, <a class="el" href="class_drive_ctrl.html#af34b1a49eb9422f59f19b6470bf75d47">pVal_i</a>, <a class="el" href="class_drive_ctrl.html#af62001c378f2b4449b3336c5ac0977a1">pVal_d</a>, DIRECT)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>PID-Controller Object. </p>
-<p><a href="https://www.quora.com/What-would-be-appropriate-tuning-factors-for-PID-line-follower-robot">https://www.quora.com/What-would-be-appropriate-tuning-factors-for-PID-line-follower-robot</a></p><ol type="1">
-<li>Set all the gains to zero</li>
-<li>Increase only Kp (Proportional gain) to get an ultimate oscillating value Kp(max)</li>
-<li>Increase Kd (Derivative gain) until the oscillations disappear.</li>
-<li>Repeat steps 2 and 3 until increasing Kd does not dampen the oscillations</li>
-<li>Now increase Ki (Integral gain) to get a good system with desired number of oscillations (Ideally zero)</li>
-</ol>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Improve controller and make it adaptive to speedchanges </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00131">131</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00109">109</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
 
 </div>
 </div>
@@ -1626,6 +1618,144 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa13f18d32968066d6b0f22b199db94bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa13f18d32968066d6b0f22b199db94bc">&#9670;&nbsp;</a></span>pSampleTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DriveCtrl::pSampleTime = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Controler SampleTime in ms. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00114">114</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+
+</div>
+</div>
+<a id="a5084573d62ae8ac7708b7e6b7b0c3781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5084573d62ae8ac7708b7e6b7b0c3781">&#9670;&nbsp;</a></span>pVal_p</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double DriveCtrl::pVal_p = <a class="el" href="_hardware_configuration_8h.html#a08da7f7ff99187e307a8b4239d7cd93c">PID_KP</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>P-Value. </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00115">115</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+
+</div>
+</div>
+<a id="af34b1a49eb9422f59f19b6470bf75d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af34b1a49eb9422f59f19b6470bf75d47">&#9670;&nbsp;</a></span>pVal_i</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double DriveCtrl::pVal_i = <a class="el" href="_hardware_configuration_8h.html#a32a866d02be32142f546db36880fea1a">PID_KI</a> / <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>I-Value (independet of SamplingTime) </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00116">116</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+
+</div>
+</div>
+<a id="af62001c378f2b4449b3336c5ac0977a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af62001c378f2b4449b3336c5ac0977a1">&#9670;&nbsp;</a></span>pVal_d</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double DriveCtrl::pVal_d = <a class="el" href="_hardware_configuration_8h.html#a90feaa7374c5c362fc49293faeb362a8">PID_KD</a> * <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>D-Value (independet of SamplingTime) </p>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00117">117</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+
+</div>
+</div>
+<a id="ae014c3028820938cf16f77a40f95b648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae014c3028820938cf16f77a40f95b648">&#9670;&nbsp;</a></span>pController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PID DriveCtrl::pController = PID(&amp;<a class="el" href="class_drive_ctrl.html#ade1cd453bcf2371f056c1baaa897d4d5">pController_Input</a>, &amp;<a class="el" href="class_drive_ctrl.html#a126a23c207f91cffb3ddde49ed2eeb8d">pController_Output</a>, &amp;<a class="el" href="class_drive_ctrl.html#a23e554291745c6c19022e00c6f6ac427">pController_Setpoint</a>, <a class="el" href="class_drive_ctrl.html#a5084573d62ae8ac7708b7e6b7b0c3781">pVal_p</a>, <a class="el" href="class_drive_ctrl.html#af34b1a49eb9422f59f19b6470bf75d47">pVal_i</a>, <a class="el" href="class_drive_ctrl.html#af62001c378f2b4449b3336c5ac0977a1">pVal_d</a>, DIRECT)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>PID-Controller Object. </p>
+<p><a href="https://www.quora.com/What-would-be-appropriate-tuning-factors-for-PID-line-follower-robot">https://www.quora.com/What-would-be-appropriate-tuning-factors-for-PID-line-follower-robot</a></p><ol type="1">
+<li>Set all the gains to zero</li>
+<li>Increase only Kp (Proportional gain) to get an ultimate oscillating value Kp(max)</li>
+<li>Increase Kd (Derivative gain) until the oscillations disappear.</li>
+<li>Repeat steps 2 and 3 until increasing Kd does not dampen the oscillations</li>
+<li>Now increase Ki (Integral gain) to get a good system with desired number of oscillations (Ideally zero)</li>
+</ol>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Improve controller and make it adaptive to speedchanges </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00131">131</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
+
+</div>
+</div>
 <a id="af69379598ee826855dfafe9a76f2364f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af69379598ee826855dfafe9a76f2364f">&#9670;&nbsp;</a></span>pDrive</h2>
 
@@ -1675,136 +1805,6 @@ Private Attributes</h2></td></tr>
 <p>EnviromentDetection Object. </p>
 
 <p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00133">133</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
-
-</div>
-</div>
-<a id="a33c7c0a652229d717a8f7a54699a4865"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33c7c0a652229d717a8f7a54699a4865">&#9670;&nbsp;</a></span>previousMillis</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned long DriveCtrl::previousMillis = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>will store last time </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00107">107</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
-
-</div>
-</div>
-<a id="aa13f18d32968066d6b0f22b199db94bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa13f18d32968066d6b0f22b199db94bc">&#9670;&nbsp;</a></span>pSampleTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DriveCtrl::pSampleTime = 50</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Controler SampleTime in ms. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00114">114</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
-
-</div>
-</div>
-<a id="af62001c378f2b4449b3336c5ac0977a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af62001c378f2b4449b3336c5ac0977a1">&#9670;&nbsp;</a></span>pVal_d</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double DriveCtrl::pVal_d = <a class="el" href="_hardware_configuration_8h.html#a90feaa7374c5c362fc49293faeb362a8">PID_KD</a> * <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>D-Value (independet of SamplingTime) </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00117">117</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
-
-</div>
-</div>
-<a id="af34b1a49eb9422f59f19b6470bf75d47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af34b1a49eb9422f59f19b6470bf75d47">&#9670;&nbsp;</a></span>pVal_i</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double DriveCtrl::pVal_i = <a class="el" href="_hardware_configuration_8h.html#a32a866d02be32142f546db36880fea1a">PID_KI</a> / <a class="el" href="class_drive_ctrl.html#aa13f18d32968066d6b0f22b199db94bc">pSampleTime</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>I-Value (independet of SamplingTime) </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00116">116</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
-
-</div>
-</div>
-<a id="a5084573d62ae8ac7708b7e6b7b0c3781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5084573d62ae8ac7708b7e6b7b0c3781">&#9670;&nbsp;</a></span>pVal_p</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double DriveCtrl::pVal_p = <a class="el" href="_hardware_configuration_8h.html#a08da7f7ff99187e307a8b4239d7cd93c">PID_KP</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>P-Value. </p>
-
-<p class="definition">Definition at line <a class="el" href="_drive_ctrl_8h_source.html#l00115">115</a> of file <a class="el" href="_drive_ctrl_8h_source.html">DriveCtrl.h</a>.</p>
 
 </div>
 </div>

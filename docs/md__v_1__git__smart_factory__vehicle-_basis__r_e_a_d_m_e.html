@@ -100,21 +100,21 @@ $(document).ready(function(){initNavTree('md__v_1__git__smart_factory__vehicle-_
 </li>
 </ul>
 <h2>Table of Content</h2>
-<h2>The SmartFactory Project</h2>
+<div style="page-break-after: always;"></div><h2>The SmartFactory Project</h2>
 <p><a href="https://github.com/LMazzole/SmartFactory_Vehicle-Basis">SmartFactory_Vehicle-Basis</a> is part of the SmartFactory-Project. It provides a library with basic vehicle functions.</p>
 <p>Other SmartFactory-Components are:</p><ul>
 <li><a href="https://github.com/LMazzole/SmartFactory_MQTTCommunication">SmartFactory_MQTTCommunication</a></li>
 </ul>
 <p>A possible implementation of the SmartFactory-Project can be seen in the Sortic-Showcase:</p>
-<img src="./docs/images/RepoOverview.png" height="300" alt="" class="inline"/>
-<p>The associated Repositorys are:</p>
+<img src="./docs/images/RepoOverview.png" height="280" alt="" class="inline"/>
+<p>The associated Repositories are:</p>
 <p><a href="https://github.com/LMazzole/SmartFactory-Sortic">SmartFactory-Sortic</a></p>
 <p><a href="https://github.com/LMazzole/SmartFactory_Box-Sortic">SmartFactory_Box-Sortic</a></p>
 <p><a href="https://github.com/LMazzole/SmartFactory_Vehicle-Sortic">SmartFactory_Vehicle-Sortic</a></p>
 <p><a href="https://github.com/LMazzole/SmartFactory_Vehicle-Basis">SmartFactory_Vehicle-Basis</a></p>
 <p><a href="https://github.com/LMazzole/SmartFactory_MQTTCommunication">SmartFactory_MQTTCommunication</a></p>
 <h2>Tools and Technologies</h2>
-<p>The source-code is written in C++. To achieve this project, the following listed tools and technologies were used.</p>
+<p>The source code is written in C++. To achieve this project, the following listed tools and technologies were used.</p>
 <h3>Doxygen</h3>
 <p>Doxygen is used for the documentation of the source-code.</p>
 <p>An intorduction to <em>Doxygen</em> and how to install it can be found in the <a href="https://github.com/LMazzole/ArdFSM#documentation-with-doxygen">ArdFSM-Repo</a>.</p>
@@ -122,11 +122,11 @@ $(document).ready(function(){initNavTree('md__v_1__git__smart_factory__vehicle-_
 <p>The used IDE is <a href="https://code.visualstudio.com/">VSCode</a> with the <a href="https://platformio.org/platformio-ide">PlatformIO</a>-Extension.</p>
 <h3>MQTT</h3>
 <p>For a description of the MQTT-Technologie take a look at the <a href="https://github.com/LMazzole/SmartFactory_MQTTCommunication#mqtt">MQTTCommunication-ReadMe</a>.</p>
-<h1>Documentation</h1>
+<div style="page-break-after: always;"></div><h1>Documentation</h1>
 <h2>Hardware</h2>
 <img src="./docs/images/HardwareSV.png" width="600" alt="" class="inline"/>
- <img src="./docs/images/HardwareSV2.png" width="600" alt="" class="inline"/>
- [Source: FTS, BA FS18, Huber,Paly]</p>
+<img src="./docs/images/HardwareSV2.png" width="600" alt="" class="inline"/>
+<p>[Source: FTS, BA FS18, Huber,Paly]</p>
 <p>To build a SmartVehicle the following hardware is needed:</p>
 <ul>
 <li>1x <a href="https://www.adafruit.com/product/3010">Adafruit Feather M0 WiFi - ATSAMD21 + ATWINC1500</a> from Adafruit.</li>
@@ -139,31 +139,48 @@ $(document).ready(function(){initNavTree('md__v_1__git__smart_factory__vehicle-_
 <li>1x Servo for Cam and Sonar - <a href="https://www.conrad.ch/de/p/motor-micro-servo-sg92r-adafruit-169-1516595.html?insert=62">SG92R Adafruit 169</a></li>
 <li>2x <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a> Lego - <a href="https://shop.lego.com/de-CH/product/LEGO-Power-Functions-M-Motor-8883">LEGO® Power Functions M-Motor</a></li>
 </ul>
-<p>For detailed building instructions please contact <a href="#" onclick="location.href='mai'+'lto:'+'fel'+'ix'+'.ny'+'ff'+'ene'+'gg'+'er@'+'hs'+'r.c'+'h'; return false;">Felix Nyffenegger</a>. </p><h2>Software</h2>
+<p>For detailed building instructions please contact <a href="#" onclick="location.href='mai'+'lto:'+'fel'+'ix'+'.ny'+'ff'+'ene'+'gg'+'er@'+'hs'+'r.c'+'h'; return false;">Felix Nyffenegger</a>.</p>
+<div style="page-break-after: always;"></div><h2>Software</h2>
 <p>All functions and files are documented on the <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/">GitHub-Page</a>.</p>
-<p>It's important to mention that all functions are non blocking and as short as possible so no other process starves.</p>
+<p>It is important to mention that all functions are non-blocking and as short as possible so no other processes slow down.</p>
 <p>The Sonar and PixyCam functionalities are not implemented at the moment and are <strike>crossed out</strike>.</p>
 <p>The interface is documented in <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html">DriveCtrl</a>, <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_environment_detection.html">EnvironmentDetection</a> and <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html">HoistCtrl</a>.</p>
 <h3>Dependency Graph</h3>
-<p><a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_drive_ctrl_8h.html"><img src="./docs/_drive_ctrl_8h__incl.png" width="550" alt="" class="inline"/>
-</a></p>
-<p><a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hoist_ctrl_8h.html"><img src="./docs/_hoist_ctrl_8h__incl.png" width="450" alt="" class="inline"/>
-</a></p>
-<p>Extern Libraries:</p>
-<ul>
+<p><a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_drive_ctrl_8h.html"><img src="./docs/_drive_ctrl_8h__incl.png" width="550" style="border:none;" alt="" class="inline"/>
+ </a><br />
+<br />
+ <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hoist_ctrl_8h.html"><img src="./docs/_hoist_ctrl_8h__incl.png" width="450" style="border:none;" alt="" class="inline"/>
+ </a> </p>
+<p><small>Click on the image to open doxygen-documentation.</small></p>
+<p><small> </small></p>
+<p><small></small></p>
+<p><small>Extern Libraries:</small></p>
+<p><small></p><ul>
 <li>[Adafruit Motor Shield V2 Library]()</li>
 <li><a href="https://github.com/br3ttb/Arduino-PID-Library/">Arduino PID</a></li>
 <li><a href="https://www.arduino.cc/en/Reference/Servo">Servo</a></li>
 <li><strike><a href="https://playground.arduino.cc/Code/NewPing/">NewPing</a></strike></li>
 </ul>
-<h3>Collaboration Diagram</h3>
-<p><a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html"><img src="./docs/class_drive_ctrl__coll__graph.png" width="300" alt="" class="inline"/>
-</a> <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html"><img src="./docs/class_hoist_ctrl__coll__graph.png" width="120" alt="" class="inline"/>
-</a></p>
-<h3>Important Functions and Files</h3>
-<h4><a class="el" href="_hardware_configuration_8h.html" title="File that contains the configuratioindetails of the different modules.">HardwareConfiguration.h</a></h4>
-<p>In <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hardware_configuration_8h.html">HardwareConfiguration.h</a> are all important settings for the Vehicle-Hardware defined:</p>
-<ul>
+<p></small></p>
+<p><small></p><div style="page-break-after: always;"></div><p></small></p>
+<p><small></p><h3>Collaboration Diagram</h3>
+<p></small></p>
+<p><small></small></p>
+<p><small></small></p>
+<p><small> <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html"><img src="./docs/class_drive_ctrl__coll__graph.png" width="300" style="border:none;" alt="" class="inline"/>
+  <img src="./docs/class_hoist_ctrl__coll__graph.png" width="120" style="border:none;" alt="" class="inline"/>
+ </a> </small></p>
+<p><small><small>Click on the image to open doxygen-documentation.</small></small></p>
+<p><small><small> </small></small></p>
+<p><small><small></small></small></p>
+<p><small><small></p><h3>Important Functions and Files</h3>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small></p><h4><a class="el" href="_hardware_configuration_8h.html" title="File that contains the configuratioindetails of the different modules.">HardwareConfiguration.h</a></h4>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small>In <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/_hardware_configuration_8h.html">HardwareConfiguration.h</a>, all important settings for the Vehicle-Hardware are defined:</small></small></p>
+<p><small><small></p><ul>
 <li>Setup for <a class="el" href="class_drive.html" title="Class Drive handels the Driving-System and provides basic functions.">Drive</a><ul>
 <li>Speed, Motor-Pins, PID-Values</li>
 </ul>
@@ -179,33 +196,55 @@ $(document).ready(function(){initNavTree('md__v_1__git__smart_factory__vehicle-_
 <li><strike>Setup for Sonar</strike></li>
 <li><strike>Setup for Vision</strike></li>
 </ul>
-<h2>FAQ's</h2>
-<h4>I'd like to use this code in my project. What do I need to know?</h4>
-<blockquote class="doxtable">
-<p>All you need to do is at the GitHub-Link to this Repo under <em>lib_deps</em> in your platformio.ini File and your good to go. All dependencies are downloaded automatic. The interface is documented in <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html">DriveCtrl</a>, <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_environment_detection.html">EnvironmentDetection</a> and <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html">HoistCtrl</a>. </p>
+<p></small></small></p>
+<p><small><small></p><div style="page-break-after: always;"></div><p></small></small></p>
+<p><small><small></p><h2>FAQ's</h2>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small></p><h4>I'd like to use this code in my project. What do I need to know?</h4>
+<p></small></small></p>
+<p><small><small> </p><blockquote class="doxtable">
+<p>All you need to do is adding the GitHub-Link to this Repo under <em>lib_deps</em> in your platformio.ini File and you're set. All dependencies are downloaded automatically. The interface is documented in <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_drive_ctrl.html">DriveCtrl</a>, <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_environment_detection.html">EnvironmentDetection</a> and <a href="https://lmazzole.github.io/SmartFactory_Vehicle-Basis/class_hoist_ctrl.html">HoistCtrl</a>. </p>
 </blockquote>
-<h3>ToDo's</h3>
-<h4>Hardware</h4>
-<ul>
-<li>[ ] The battery of the vehicle must be recharged by hand. Inductive charging while waiting would be desirable.</li>
+<p></small></small></p>
+<p><small><small></p><h3>ToDo's</h3>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small></p><h4>Hardware</h4>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small></p><ul>
+<li>[ ] The battery of the vehicle must be recharged manually. Inductive charging while waiting would be desirable.</li>
 <li>[ ] Sensors for line recognition have an unfavourable distance to the turning point. They should be placed closer to the vehicle axis to increase the accuracy of alignment.</li>
+<li>[ ] The line recognition functions unreliably. This may be caused by an imperfect white background and needs to be optimized.</li>
 </ul>
-<h4>Software</h4>
-<p>The open ToDo's can be found in the Documentation on the <a href="https://lmazzole.github.io/SmartFactory_Box-Sortic/todo.html">GitHub-Page</a></p>
-<ul>
+<p></small></small></p>
+<p><small><small></p><h4>Software</h4>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small>The open ToDo's can be found in the Documentation on the <a href="https://lmazzole.github.io/SmartFactory_Box-Sortic/todo.html">GitHub-Page</a></small></small></p>
+<p><small><small></p><ul>
 <li>[ ] Implement Sonar</li>
-<li>[ ] Implement Vision <h2>Contributors</h2>
-</li>
+<li>[ ] Implement Vision</li>
 </ul>
-<ul>
+<p></small></small></p>
+<p><small><small></p><h2>Contributors</h2>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small></p><ul>
 <li><a href="https://github.com/LMazzole">Luca Mazzoleni</a></li>
 <li>Glenn Patrick Huber</li>
 <li>Robert Paly</li>
 </ul>
-<h2>Changelog</h2>
-<p>V 1.0 - Release BA FS19 - <a href="https://github.com/LMazzole">Luca Mazzoleni</a></p>
-<h2>License</h2>
-<p>[TODO] </p>
+<p></small></small></p>
+<p><small><small></p><h2>Changelog</h2>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small>V 1.0 - Release BA FS19 - <a href="https://github.com/LMazzole">Luca Mazzoleni</a></small></small></p>
+<p><small><small></p><h2>License</h2>
+<p></small></small></p>
+<p><small><small></small></small></p>
+<p><small><small>MIT License </small></small></p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

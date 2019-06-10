@@ -226,6 +226,71 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a26a58bd1fff17b97ee57535ce5dcbfdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26a58bd1fff17b97ee57535ce5dcbfdb">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hoist::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise the <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a> in the low position. </p>
+
+<p class="definition">Definition at line <a class="el" href="_hoist_8cpp_source.html#l00034">34</a> of file <a class="el" href="_hoist_8cpp_source.html">Hoist.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7f035d4c1e49c3454e18d57ccb7f9905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f035d4c1e49c3454e18d57ccb7f9905">&#9670;&nbsp;</a></span>raise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hoist::raise </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Raise the <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a> 1° per servodelay/call until it's at positionMax. </p>
+<p>You need to call <a class="el" href="class_hoist.html#ac8343a7310690e3437ea28c4c2ca15f6" title="attache servo to servopin">attach()</a> first so that the function works properly. </p>
+
+<p class="definition">Definition at line <a class="el" href="_hoist_8cpp_source.html#l00042">42</a> of file <a class="el" href="_hoist_8cpp_source.html">Hoist.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ac7fd7ee914af03ed9071c35a43e07b47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7fd7ee914af03ed9071c35a43e07b47">&#9670;&nbsp;</a></span>lower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hoist::lower </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lower the <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a> 1° per servodelay/call until it's at positionMin. </p>
+<p>You need to call <a class="el" href="class_hoist.html#ac8343a7310690e3437ea28c4c2ca15f6" title="attache servo to servopin">attach()</a> first so that the function works properly. </p>
+
+<p class="definition">Definition at line <a class="el" href="_hoist_8cpp_source.html#l00059">59</a> of file <a class="el" href="_hoist_8cpp_source.html">Hoist.cpp</a>.</p>
+
+</div>
+</div>
 <a id="ac8343a7310690e3437ea28c4c2ca15f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8343a7310690e3437ea28c4c2ca15f6">&#9670;&nbsp;</a></span>attach()</h2>
 
@@ -284,98 +349,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a26a58bd1fff17b97ee57535ce5dcbfdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26a58bd1fff17b97ee57535ce5dcbfdb">&#9670;&nbsp;</a></span>init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Hoist::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialise the <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a> in the low position. </p>
-
-<p class="definition">Definition at line <a class="el" href="_hoist_8cpp_source.html#l00034">34</a> of file <a class="el" href="_hoist_8cpp_source.html">Hoist.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ac7fd7ee914af03ed9071c35a43e07b47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7fd7ee914af03ed9071c35a43e07b47">&#9670;&nbsp;</a></span>lower()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Hoist::lower </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Lower the <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a> 1° per servodelay/call until it's at positionMin. </p>
-<p>You need to call <a class="el" href="class_hoist.html#ac8343a7310690e3437ea28c4c2ca15f6" title="attache servo to servopin">attach()</a> first so that the function works properly. </p>
-
-<p class="definition">Definition at line <a class="el" href="_hoist_8cpp_source.html#l00059">59</a> of file <a class="el" href="_hoist_8cpp_source.html">Hoist.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a7f035d4c1e49c3454e18d57ccb7f9905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f035d4c1e49c3454e18d57ccb7f9905">&#9670;&nbsp;</a></span>raise()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Hoist::raise </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Raise the <a class="el" href="class_hoist.html" title="Provides the basic functions to control the Hoist.">Hoist</a> 1° per servodelay/call until it's at positionMax. </p>
-<p>You need to call <a class="el" href="class_hoist.html#ac8343a7310690e3437ea28c4c2ca15f6" title="attache servo to servopin">attach()</a> first so that the function works properly. </p>
-
-<p class="definition">Definition at line <a class="el" href="_hoist_8cpp_source.html#l00042">42</a> of file <a class="el" href="_hoist_8cpp_source.html">Hoist.cpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2d4176c634f438ca970c9356e1401a8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4176c634f438ca970c9356e1401a8a">&#9670;&nbsp;</a></span>currentMillis</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned long Hoist::currentMillis = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>will store current time for non blocking delay </p>
-
-<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00089">89</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
-
-</div>
-</div>
 <a id="a3738c6a34deba80c7cc7fffd569e8ce2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3738c6a34deba80c7cc7fffd569e8ce2">&#9670;&nbsp;</a></span>hoistServo</h2>
 
@@ -399,6 +373,32 @@ Private Attributes</h2></td></tr>
 <p>Instance of servo object. </p>
 
 <p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00082">82</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
+
+</div>
+</div>
+<a id="ab5bf589b94566d5578980e298c4263c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bf589b94566d5578980e298c4263c1">&#9670;&nbsp;</a></span>servoPin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Hoist::servoPin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Servopin. </p>
+
+<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00083">83</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
 
 </div>
 </div>
@@ -428,32 +428,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a132a706b2bd4d3693a54fdb75798f0ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a132a706b2bd4d3693a54fdb75798f0ac">&#9670;&nbsp;</a></span>positionMax</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Hoist::positionMax</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>maximal possible position (Hardware-Restriction) </p>
-
-<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00086">86</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
-
-</div>
-</div>
 <a id="a5937e81839b5958f7cb77089591188e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5937e81839b5958f7cb77089591188e2">&#9670;&nbsp;</a></span>positionMin</h2>
 
@@ -480,8 +454,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a600e68db558f83c06d290123d092954d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a600e68db558f83c06d290123d092954d">&#9670;&nbsp;</a></span>previousMillis</h2>
+<a id="a132a706b2bd4d3693a54fdb75798f0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132a706b2bd4d3693a54fdb75798f0ac">&#9670;&nbsp;</a></span>positionMax</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -490,7 +464,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long Hoist::previousMillis = 0</td>
+          <td class="memname">int Hoist::positionMax</td>
         </tr>
       </table>
   </td>
@@ -500,9 +474,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>will store last time called for non blocking delay </p>
+<p>maximal possible position (Hardware-Restriction) </p>
 
-<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00090">90</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00086">86</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
 
 </div>
 </div>
@@ -532,8 +506,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab5bf589b94566d5578980e298c4263c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5bf589b94566d5578980e298c4263c1">&#9670;&nbsp;</a></span>servoPin</h2>
+<a id="a2d4176c634f438ca970c9356e1401a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4176c634f438ca970c9356e1401a8a">&#9670;&nbsp;</a></span>currentMillis</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +516,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Hoist::servoPin</td>
+          <td class="memname">unsigned long Hoist::currentMillis = 0</td>
         </tr>
       </table>
   </td>
@@ -552,9 +526,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Servopin. </p>
+<p>will store current time for non blocking delay </p>
 
-<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00083">83</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00089">89</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
+
+</div>
+</div>
+<a id="a600e68db558f83c06d290123d092954d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a600e68db558f83c06d290123d092954d">&#9670;&nbsp;</a></span>previousMillis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long Hoist::previousMillis = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>will store last time called for non blocking delay </p>
+
+<p class="definition">Definition at line <a class="el" href="_hoist_8h_source.html#l00090">90</a> of file <a class="el" href="_hoist_8h_source.html">Hoist.h</a>.</p>
 
 </div>
 </div>
