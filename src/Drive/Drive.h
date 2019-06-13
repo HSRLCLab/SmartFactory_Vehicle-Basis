@@ -12,6 +12,7 @@
  * @date 2019-04-26
  * @copyright Copyright (c) 2019
  * 
+ * @todo Allowed the motorshield to be turned on later. Evt call the C-Tor again.
  */
 
 #ifndef DRIVE_H

@@ -17,7 +17,7 @@ The [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicl
 <!-- TOC Generated with https://magnetikonline.github.io/markdown-toc-generate/ -->
 
 - [The SmartFactory project](#the-smartfactory-project)
-- [Tools and Technologies](#tools-and-technologies)
+- [Tools and technologies](#tools-and-technologies)
 	- [Doxygen](#doxygen)
 	- [VSCode PlatformIO](#vscode-platformio)
 	- [MQTT](#mqtt)
@@ -60,7 +60,7 @@ The associated repositories are:
   [SmartFactory_Vehicle-Basis](https://github.com/LMazzole/SmartFactory_Vehicle-Basis)  
   [SmartFactory_MQTTCommunication](https://github.com/LMazzole/SmartFactory_MQTTCommunication)  
 
-## Tools and Technologies
+## Tools and technologies
 
 The source code is written in C++.
 To achieve this project, the following listed tools and technologies were used.
@@ -70,7 +70,7 @@ To achieve this project, the following listed tools and technologies were used.
 An intorduction to *Doxygen* and how to install it can be found in the [ArdFSM-Repo](https://github.com/LMazzole/ArdFSM#documentation-with-doxygen).  
 
 ### VSCode PlatformIO
-The used  IDE is [VSCode](https://code.visualstudio.com/) with the [PlatformIO](https://platformio.org/platformio-ide)-Extension.
+The used  IDE is [VSCode](https://code.visualstudio.com/) with the [PlatformIO](https://platformio.org/platformio-ide)-extension.
 
 ### MQTT
 For a description of the MQTT-Technologie take a look at the [MQTTCommunication-ReadMe](<https://github.com/LMazzole/SmartFactory_MQTTCommunication#mqtt>).   

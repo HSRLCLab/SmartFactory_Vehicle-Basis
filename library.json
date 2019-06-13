@@ -15,7 +15,7 @@
     },
     "dependencies": [
         {
-            "lib-from-repo": "https://github.com/br3ttb/Arduino-PID-Library/ "
+            "name": "PID"
         },
         {
             "name": "Servo"
